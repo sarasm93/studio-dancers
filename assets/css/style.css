@@ -24,6 +24,10 @@ h1 {
 right order without manually changing them in index.html before float to right.
 Attribution: https://www.youtube.com/watch?v=LcePFs4vFLg */
 
+#menu {
+    line-height: 100px;
+}
+
 #menu li {
     list-style-type: none;
     display: inline-block;
@@ -32,4 +36,5 @@ Attribution: https://www.youtube.com/watch?v=LcePFs4vFLg */
     text-transform: uppercase; 
     font-size: 150%;
     color: #092813;
+    padding-top: 9.5px;
 }
