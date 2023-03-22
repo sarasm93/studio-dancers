@@ -15,7 +15,9 @@ body {
 h1 {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
-    color: #8A7500; 
+    color: #8A7500;
+    font-size: 300%;
+    float: left; 
 }
 
 #menu {
