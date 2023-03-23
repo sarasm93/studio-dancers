@@ -49,16 +49,18 @@ nav {
     padding-top: 9.5px;  
 }
 
+/*Sections */
+
+section {
+    clear: both;
+    height: 400px;
+}
+
 /* Intro section */
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-}
-
-#intro {
-    clear: both;
-    height: 400px;
 }
 
 #intro-text {
@@ -84,11 +86,6 @@ h2 {
 }
 
 /* About us-section */
-
-#about {
-    clear: both;
-    height: 400px;
-}
 
 #about-image {
     float: left;
@@ -119,24 +116,24 @@ h2 {
 
 /* Contact section */
 
-#contact {
-    clear: both;
-    height: 400px;
-}
-
 #contact-text {
     float: left;
     width: 50%;
     position: relative;
 }
 
-#contact-text h2 {
-    text-align: center;
-    letter-spacing: 6px;
-    font-size: 200%;
+#contact-text h2, p {
     position: absolute;
-    top: 160px;
+    text-align: right;
     margin: 0 10px 0 10px;
+}
+
+#contact-text h2 {
+    top: 100px;
+}
+
+#contact-text p {
+    top: 140px;
 }
 
 #contact-image {
