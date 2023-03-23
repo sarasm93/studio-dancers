@@ -70,8 +70,10 @@ nav {
 
 #intro-text h2 {
     text-align: center;
+    letter-spacing: 6px;
+    font-size: 200%;
     position: absolute;
-    top: 180px;
+    top: 160px;
     margin: 0 10px 0 10px;
 }
 
