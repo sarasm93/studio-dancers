@@ -56,12 +56,12 @@ section {
     height: 400px;
 }
 
-/* Intro section */
-
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+
+/* Intro section */
 
 #intro-text {
     float: left;
@@ -87,31 +87,30 @@ h2 {
 
 /* About us-section */
 
-#about-image {
-    float: left;
-    width: 50%;
-    height: 100%;
-    background: url("../images/five-girls.jpg") no-repeat left;
-}
-
 #about-text {
     float: right;
     width: 50%;
     position: relative;
 }
 
-#about-text h2, p {
-    position: absolute;
-    text-align: right;
-    margin: 0 10px 0 10px;
-}
-
 #about-text h2 {
+    text-align: right;
+    position: absolute;
     top: 100px;
+    margin: 0 20px 0 20px;
 }
 
 #about-text p {
+    position: absolute;
     top: 140px;
+    margin: 0 20px 0 20px;
+}
+
+#about-image {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url("../images/five-girls.jpg") no-repeat left;
 }
 
 /* Contact section */
@@ -122,17 +121,17 @@ h2 {
     position: relative;
 }
 
-#contact-text h2, p {
-    position: absolute;
-    text-align: right;
-    margin: 0 10px 0 10px;
-}
-
 #contact-text h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    position: absolute;
     top: 100px;
 }
 
 #contact-text p {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    position: absolute;
     top: 140px;
 }
 
