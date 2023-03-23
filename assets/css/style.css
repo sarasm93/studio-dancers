@@ -42,4 +42,24 @@ nav {
     padding-top: 9.5px;  
 }
 
+/* Intro-section */
+
+#intro {
+    clear: both;
+    height: 300px;
+}
+
+#intro-text {
+    float: left;
+    width: 50%;
+    
+}
+
+#intro-text h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 125px;
+}
+
 
