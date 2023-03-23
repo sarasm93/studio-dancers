@@ -7,17 +7,18 @@
 }
 
 body {
-    color: #092813;
+    color: white;
     font-family: roboto condensed, arial, sans-serif;
     margin: 0 10% 0 10%;
+    background-color: #000B0F;
 }
 
 h1 {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
-    color: #8A7500;
+    color: white;
     font-size: 300%;
-    float: left; 
+    float: left;
 }
 
 /* Using #menu li {display: inline-block;} to place the navigation list items in the 
@@ -31,10 +32,10 @@ Attribution: https://www.youtube.com/watch?v=LcePFs4vFLg */
 #menu li {
     list-style-type: none;
     display: inline-block;
-    float: right;  
+    float: right;
     margin-left: 40px; 
     text-transform: uppercase; 
     font-size: 150%;
-    color: #092813;
-    padding-top: 9.5px;
+    color: white;
+    padding-top: 9.5px;  
 }
