@@ -26,6 +26,7 @@ h1 {
 #menu {
     line-height: 100px;
     margin: 0 5% 0 5%;
+    background-color: transparent;
 }
 
 nav {
@@ -52,7 +53,6 @@ nav {
 #intro-text {
     float: left;
     width: 50%;
-    
 }
 
 #intro-text h2 {
@@ -62,4 +62,10 @@ nav {
     padding-top: 125px;
 }
 
-
+#intro-image {
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/happy-group.jpg");
+    background-repeat: no-repeat;
+}
