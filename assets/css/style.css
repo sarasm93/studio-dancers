@@ -59,6 +59,7 @@ section {
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-bottom: 30%;
 }
 
 /* Intro section */
@@ -70,6 +71,7 @@ h2 {
 }
 
 #intro-text h2 {
+    width: 100%; 
     text-align: center;
     letter-spacing: 6px;
     font-size: 200%;
@@ -94,23 +96,26 @@ h2 {
 }
 
 #about-text h2 {
-    text-align: right;
+    width: 100%; 
+    text-align: center;
     position: absolute;
     top: 100px;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
 
 #about-text p {
+    width: 100%;
+    text-align: center;
     position: absolute;
     top: 140px;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 10px;
 }
 
 #about-image {
     float: left;
     width: 50%;
     height: 100%;
-    background: url("../images/five-girls.jpg") no-repeat left;
+    background: url("../images/stage-group.jpg") no-repeat center;
 }
 
 /* Contact section */
@@ -122,22 +127,25 @@ h2 {
 }
 
 #contact-text h2 {
+    width: 100%;
     text-align: center;
-    margin: 20px 0 20px 0;
     position: absolute;
     top: 100px;
+    margin: 0 10px 0 10px;
+    
 }
 
 #contact-text p {
+    width: 100%;
     text-align: center;
-    margin: 20px 0 20px 0;
     position: absolute;
     top: 140px;
+    margin: 0 10px 0 10px;
 }
 
 #contact-image {
     float: right;
     width: 50%;
     height: 100%;
-    background: url("../images/happy-group.jpg") no-repeat right;
+    background: url("../images/five-girls.jpg") no-repeat center;
 }
