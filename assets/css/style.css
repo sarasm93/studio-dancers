@@ -9,9 +9,11 @@
 body {
     color: white;
     font-family: roboto condensed, arial, sans-serif;
-    margin: 0 10% 0 10%;
+    margin: 0 7% 0 7%;
     background-color: #000B0F;
 }
+
+/* Logo and navigation bar */
 
 h1 {
     font-family: montserrat subrayada, arial, sans-serif;
@@ -21,21 +23,23 @@ h1 {
     float: left;
 }
 
-/* Using #menu li {display: inline-block;} to place the navigation list items in the 
-right order without manually changing them in index.html before float to right.
-Attribution: https://www.youtube.com/watch?v=LcePFs4vFLg */
-
 #menu {
     line-height: 100px;
+    margin: 0 5% 0 5%;
+}
+
+nav {
+    float: right;
 }
 
 #menu li {
     list-style-type: none;
-    display: inline-block;
-    float: right;
     margin-left: 40px; 
+    float: left;
     text-transform: uppercase; 
     font-size: 150%;
     color: white;
     padding-top: 9.5px;  
 }
+
+
