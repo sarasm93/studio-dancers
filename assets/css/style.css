@@ -98,6 +98,7 @@ h2 {
     width: 50%;
     height: 100%;*/
     background: url("../images/happy-group.jpg") no-repeat center;
+    background-size: cover;
 }
 
 /* About us-section */
@@ -129,6 +130,7 @@ h2 {
     width: 50%;
     height: 100%;*/
     background: url("../images/stage-group.jpg") no-repeat center;
+    background-size: cover;
 }
 
 /* Contact section */
@@ -161,6 +163,7 @@ h2 {
     width: 50%;
     height: 100%;*/
     background: url("../images/five-girls.jpg") no-repeat center;
+    background-size: cover;
 }
 
 /* footer */
