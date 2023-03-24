@@ -79,7 +79,7 @@ h2 {
     letter-spacing: 6px;
     font-size: 200%;
     position: absolute;
-    top: 160px;    
+    top: 40%;   
 }
 
 #joy {
@@ -113,6 +113,7 @@ h2 {
 #about-text p {
     text-align: left;
     position: absolute;
+    font-size: 120%;
     left: 30px;
     right: 30px;
     top: 140px;
@@ -169,4 +170,25 @@ footer {
     text-align: center;
     line-height: 100px;
     height: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #menu {
+        line-height: 200px;
+    }
+    
+    h1 {
+        font-size: 500%;
+        margin-bottom: 20px;
+    }
+
+    #menu li {
+        margin-left: 70px; 
+        font-size: 200%;
+        color: white;  
+        padding-top: 20px; 
+    }
+
+    
 }
