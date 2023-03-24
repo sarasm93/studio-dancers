@@ -172,6 +172,24 @@ footer {
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     
+    #menu {
+        line-height: 50px;
+    }
+    
+    h1 {
+        font-size: 200%;
+    }
+    
+    #menu li {
+        margin-left: 15px;  
+        font-size: 100%;
+        color: white;
+        padding-top: 20px;  
+    }
+
+    section {
+        height: 200px;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -240,8 +258,9 @@ footer {
         background: url("../images/five-girls.jpg") no-repeat top;
         background-size: cover;
     }
-
 }
+
+
 
 /*@media screen and (min-width: 1200px) {
 
