@@ -133,16 +133,22 @@ h2 {
 }
 
 #contact-text h2 {
-   position: absolute;
+    text-align:center;
+    position: absolute;
     left: 52px;
     right: 52px;
-    top: 100px;
+    top: 90px;
         
 }
 
 #contact-text p {
+    text-align: center;
+    line-height: 40px;
     position: absolute;
-    top: 140px;
+    left: 20px;
+    right: 20px;
+    top: 200px;
+    font-size: 120%;
 }
 
 #contact-image {
