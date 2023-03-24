@@ -113,7 +113,6 @@ h2 {
 #about-text p {
     text-align: left;
     position: absolute;
-    font-size: 120%;
     left: 30px;
     right: 30px;
     top: 140px;
@@ -149,7 +148,6 @@ h2 {
     left: 20px;
     right: 20px;
     top: 200px;
-    font-size: 120%;
 }
 
 #contact-image {
@@ -190,5 +188,60 @@ footer {
         padding-top: 20px; 
     }
 
+    section {
+        height: 600px;
+    }
+
+    .intro, .about, .contact {
+        height: 600px;
+    }
+
+    #intro-text h2 {
+        font-size: 300%;
+        left: 20px;
+        right: 20px;
+    }
+
+    #intro-image {
+        /*Add larger image. Maybe change position*/
+        background: url("../images/happy-group.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    #about-text h2 {
+        left: 60px;
+        top: 200px;
+        font-size: 200%;
+    }
     
+    #about-text p {
+        left: 60px;
+        right: 60px;
+        top: 260px;
+        font-size: 150%;
+    }
+
+    #about-image {
+        /*Add larger image. Maybe change position.*/
+        background: url("../images/stage-group.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    #contact-text h2 {
+        top: 150px;
+        font-size: 200%;    
+    }
+    
+    #contact-text p {
+        line-height: 60px;
+        right: 40px;
+        top: 280px;
+        font-size: 150%;
+    }
+
+    #contact-image {
+        /*Add larger image. Maybe change position*/
+        background: url("../images/five-girls.jpg") no-repeat top;
+        background-size: cover;
+    }
 }
