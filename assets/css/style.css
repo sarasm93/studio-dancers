@@ -25,7 +25,6 @@ h1 {
     color: white;
     font-size: 300%;
     float: left;
-    margin: 8px 0 9.5px 0;
 }
 
 nav {
@@ -38,8 +37,7 @@ nav {
     float: left;
     text-transform: uppercase; 
     font-size: 100%;
-    color: white;
-    padding-top: 20px;  
+    color: white;  
 }
 
 /*Sections */
@@ -172,9 +170,6 @@ footer {
 
 @media screen and (max-width: 1200px) {
 /* Change to @media only screen and (max-width: 1200px) and (min-width: 1025px)*/
-    h1 {
-        margin: 10px 0;
-    }
 
     #menu li {
         margin-left: 30px; 
@@ -241,7 +236,7 @@ footer {
 @media screen and (max-width: 1024px) {
 /* Change to @media only screen and (max-width: 1024px) and (min-width: 769px)*/
     #menu {
-        line-height: 50px;
+        line-height: 100px;
     }
     
     h1 {
@@ -252,7 +247,6 @@ footer {
         margin-left: 15px;  
         font-size: 100%;
         color: white;
-        padding-top: 20px;  
     }
 
     section {
