@@ -172,80 +172,15 @@ footer {
     height: 100px;
 }
 
-@media screen and (max-width: 1024px) {
-    /* Change to @media only screen and (max-width: 1024px) and (min-width: 769px)*/
-        
-        h1 {
-            font-size: 200%;
-        }
-        
-        #menu li {
-            margin-left: 15px; 
-        }
-    
-        section {
-            height: 300px;
-        }
-    
-        .intro, .about, .contact {
-            height: 300px;
-        }
-    
-        #intro-text h2 {
-            font-size: 150%;
-            left: 10px;
-            right: 10px;
-            top: 40%;
-        }
-    
-        #intro-image {
-            /*Add larger image. Maybe change position*/
-            background: url("../images/happy-group.jpg") no-repeat center;
-            background-size: cover;
-        }
-    
-        #about-text h2 {
-            font-size: 120%;
-            left: 20px;
-            top: 50px;
-        }
-        
-        #about-text p {
-            left: 20px;
-            right: 20px;
-            top: 90px;
-            font-size: 100%;
-        }
-    
-        #about-image {
-            /*Add larger image. Maybe change position.*/
-            background: url("../images/stage-group.jpg") no-repeat center;
-            background-size: cover;
-        }
-    
-        #contact-text h2 {
-            top: 40px;    
-        }
-        
-        #contact-text p {
-            line-height: 30px;
-            right: 20px;
-            left: 20px;
-            top: 170px;
-        }
-    
-        #contact-image {
-            /*Add larger image. Maybe change position*/
-            background: url("../images/five-girls.jpg") no-repeat top;
-            background-size: cover;
-        }
-    
-    }
-
 @media screen and (max-width: 1200px) {
 /* Change to @media only screen and (max-width: 1200px) and (min-width: 1025px)*/
 
+    h1 {
+        font-size: 200%;
+    }
+
     #menu li {
+        font-size: 100%;
         margin-left: 30px;
     }
 
@@ -309,7 +244,76 @@ footer {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    /* Change to @media only screen and (max-width: 1024px) and (min-width: 769px)*/
+        
 
+        h1 {
+            font-size: 200%;
+        }
+
+        #menu li {
+            font-size: 100%;
+            margin-left: 30px;
+        }
+        section {
+            height: 300px;
+        }
+    
+        .intro, .about, .contact {
+            height: 300px;
+        }
+    
+        #intro-text h2 {
+            font-size: 150%;
+            left: 10px;
+            right: 10px;
+            top: 40%;
+        }
+    
+        #intro-image {
+            /*Add larger image. Maybe change position*/
+            background: url("../images/happy-group.jpg") no-repeat center;
+            background-size: cover;
+        }
+    
+        #about-text h2 {
+            font-size: 120%;
+            left: 20px;
+            top: 50px;
+        }
+        
+        #about-text p {
+            left: 20px;
+            right: 20px;
+            top: 90px;
+            font-size: 100%;
+        }
+    
+        #about-image {
+            /*Add larger image. Maybe change position.*/
+            background: url("../images/stage-group.jpg") no-repeat center;
+            background-size: cover;
+        }
+    
+        #contact-text h2 {
+            top: 40px;    
+        }
+        
+        #contact-text p {
+            line-height: 30px;
+            right: 20px;
+            left: 20px;
+            top: 100px;
+        }
+    
+        #contact-image {
+            /*Add larger image. Maybe change position*/
+            background: url("../images/five-girls.jpg") no-repeat top;
+            background-size: cover;
+        }
+    
+    }
 
 
 /*@media screen and (min-width: 1200px) {
