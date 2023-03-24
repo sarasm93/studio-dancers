@@ -51,20 +51,28 @@ nav {
 
 /*Sections */
 
-section {
+/* section {
     clear: both;
     height: 400px;
-}
+}*/
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-bottom: 30%;
+    /*margin-bottom: 30%;*/
+} 
+
+.intro, .about, .contact {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+    float: left;
 }
+
 
 /* Intro section */
 
-#intro-text {
+/* #intro-text {
     float: left;
     width: 50%;
     position: relative;
@@ -78,18 +86,18 @@ h2 {
     position: absolute;
     top: 160px;
     margin: 0 10px 0 10px;
-}
+}*/
 
 #intro-image {
-    float: right;
-    width: 50%;
+    /*float: right; 
+    width: 50%;*/
     height: 100%;
     background: url("../images/happy-group.jpg") no-repeat right;
 }
 
 /* About us-section */
 
-#about-text {
+/*#about-text {
     float: right;
     width: 50%;
     position: relative;
@@ -109,18 +117,18 @@ h2 {
     position: absolute;
     top: 140px;
     margin: 0 10px 0 10px;
-}
+}*/
 
 #about-image {
-    float: left;
-    width: 50%;
+    /*float: left;
+    width: 50%;*/
     height: 100%;
     background: url("../images/stage-group.jpg") no-repeat center;
 }
 
 /* Contact section */
 
-#contact-text {
+/*#contact-text {
     float: left;
     width: 50%;
     position: relative;
@@ -141,11 +149,11 @@ h2 {
     position: absolute;
     top: 140px;
     margin: 0 10px 0 10px;
-}
+}*/
 
 #contact-image {
-    float: right;
-    width: 50%;
+    /*float: right;
+    width: 50%;*/
     height: 100%;
     background: url("../images/five-girls.jpg") no-repeat center;
 }
