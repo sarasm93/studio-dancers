@@ -170,30 +170,8 @@ footer {
     height: 100px;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    
-    #menu {
-        line-height: 50px;
-    }
-    
-    h1 {
-        font-size: 200%;
-    }
-    
-    #menu li {
-        margin-left: 15px;  
-        font-size: 100%;
-        color: white;
-        padding-top: 20px;  
-    }
-
-    section {
-        height: 200px;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-
+@media screen and (max-width: 1200px) {
+/* Change to @media only screen and (max-width: 1200px) and (min-width: 1025px)*/
     h1 {
         margin: 10px 0;
     }
@@ -260,6 +238,27 @@ footer {
     }
 }
 
+@media screen and (max-width: 1024px) {
+/* Change to @media only screen and (max-width: 1024px) and (min-width: 769px)*/
+    #menu {
+        line-height: 50px;
+    }
+    
+    h1 {
+        font-size: 200%;
+    }
+    
+    #menu li {
+        margin-left: 15px;  
+        font-size: 100%;
+        color: white;
+        padding-top: 20px;  
+    }
+
+    section {
+        height: 200px;
+    }
+}
 
 
 /*@media screen and (min-width: 1200px) {
