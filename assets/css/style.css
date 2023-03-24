@@ -170,7 +170,78 @@ footer {
     height: 100px;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
 
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    h1 {
+        margin: 10px 0;
+    }
+
+    #menu li {
+        margin-left: 30px; 
+        font-size: 100%;
+        color: white; 
+    }
+
+    section {
+        height: 300px;
+    }
+
+    .intro, .about, .contact {
+        height: 300px;
+    }
+
+    #intro-text h2 {
+        font-size: 200%;
+        left: 10px;
+        right: 10px;
+        top: 30%;
+    }
+
+    #intro-image {
+        /*Add larger image. Maybe change position*/
+        background: url("../images/happy-group.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    #about-text h2 {
+        left: 20px;
+        top: 50px;
+    }
+    
+    #about-text p {
+        left: 20px;
+        right: 20px;
+        top: 90px;
+    }
+
+    #about-image {
+        /*Add larger image. Maybe change position.*/
+        background: url("../images/stage-group.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    #contact-text h2 {
+        top: 40px;    
+    }
+    
+    #contact-text p {
+        line-height: 30px;
+        right: 20px;
+        left: 20px;
+        top: 170px;
+    }
+
+    #contact-image {
+        /*Add larger image. Maybe change position*/
+        background: url("../images/five-girls.jpg") no-repeat top;
+        background-size: cover;
+    }
+
+}
 
 /*@media screen and (min-width: 1200px) {
 
