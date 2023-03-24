@@ -28,14 +28,6 @@ h1 {
     margin-bottom: 9.5px;
 }
 
-#joy {
-    color: #FF0565;
-}
-
-#dancing {
-    color: #25d3d6;
-}
-
 nav {
     float: right;
 }
@@ -60,7 +52,7 @@ nav {
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    /*margin-bottom: 30%;*/
+    margin-bottom: 20px;
 } 
 
 .intro, .about, .contact {
@@ -75,27 +67,37 @@ h2 {
 
 /* Intro section */
 
-/* #intro-text {
-    float: left;
-    width: 50%;
+ #intro-text {
+    /*float: left;
+    width: 50%;*/
     position: relative;
+    
 }
 
 #intro-text h2 {
-    width: 100%; 
+    /*width: 100%;*/
     text-align: center;
     letter-spacing: 6px;
     font-size: 200%;
     position: absolute;
     top: 160px;
-    margin: 0 10px 0 10px;
-}*/
+    /*margin: 0 10px 0 10px;*/
+    
+}
+
+#joy {
+    color: #FF0565;
+}
+
+#dancing {
+    color: #25d3d6;
+}
 
 #intro-image {
     /*float: right; 
     width: 50%;
     height: 100%;*/
-    background: url("../images/happy-group.jpg") no-repeat right;
+    background: url("../images/happy-group.jpg") no-repeat center;
 }
 
 /* About us-section */
