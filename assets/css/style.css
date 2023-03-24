@@ -65,8 +65,10 @@ h2 {
 .intro, .about, .contact {
     box-sizing: border-box;
     width: 50%;
+    height: 400px;
     padding: 20px;
     float: left;
+    border: 1px solid grey;
 }
 
 
@@ -90,8 +92,8 @@ h2 {
 
 #intro-image {
     /*float: right; 
-    width: 50%;*/
-    height: 100%;
+    width: 50%;
+    height: 100%;*/
     background: url("../images/happy-group.jpg") no-repeat right;
 }
 
@@ -121,8 +123,8 @@ h2 {
 
 #about-image {
     /*float: left;
-    width: 50%;*/
-    height: 100%;
+    width: 50%;
+    height: 100%;*/
     background: url("../images/stage-group.jpg") no-repeat center;
 }
 
@@ -153,8 +155,8 @@ h2 {
 
 #contact-image {
     /*float: right;
-    width: 50%;*/
-    height: 100%;
+    width: 50%;
+    height: 100%;*/
     background: url("../images/five-girls.jpg") no-repeat center;
 }
 
