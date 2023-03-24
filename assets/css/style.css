@@ -25,7 +25,7 @@ h1 {
     color: white;
     font-size: 300%;
     float: left;
-    margin-bottom: 9.5px;
+    margin: 8px 0 9.5px 0;
 }
 
 nav {
@@ -37,9 +37,9 @@ nav {
     margin-left: 40px; 
     float: left;
     text-transform: uppercase; 
-    font-size: 120%;
+    font-size: 100%;
     color: white;
-    padding-top: 9.5px;  
+    padding-top: 20px;  
 }
 
 /*Sections */
@@ -170,30 +170,32 @@ footer {
     height: 100px;
 }
 
-@media screen and (min-width: 1200px) {
+
+
+/*@media screen and (min-width: 1200px) {
 
     #menu {
-        line-height: 200px;
+        line-height: 150px;
     }
     
     h1 {
-        font-size: 500%;
-        margin-bottom: 20px;
+        font-size: 400%;
+        margin-bottom: 15px;
     }
 
     #menu li {
-        margin-left: 70px; 
-        font-size: 200%;
+        margin-left: 50px; 
+        font-size: 120%;
         color: white;  
-        padding-top: 20px; 
+        padding-top: 15px; 
     }
 
     section {
-        height: 600px;
+        height: 500px;
     }
 
     .intro, .about, .contact {
-        height: 600px;
+        height: 500px;
     }
 
     #intro-text h2 {
@@ -203,45 +205,46 @@ footer {
     }
 
     #intro-image {
-        /*Add larger image. Maybe change position*/
+        Add larger image. Maybe change position
         background: url("../images/happy-group.jpg") no-repeat center;
         background-size: cover;
     }
 
     #about-text h2 {
         left: 60px;
-        top: 200px;
+        top: 150px;
         font-size: 200%;
     }
     
     #about-text p {
         left: 60px;
         right: 60px;
-        top: 260px;
-        font-size: 150%;
+        top: 210px;
+        font-size: 130%;
     }
 
     #about-image {
-        /*Add larger image. Maybe change position.*/
+        Add larger image. Maybe change position.
         background: url("../images/stage-group.jpg") no-repeat center;
         background-size: cover;
     }
 
     #contact-text h2 {
-        top: 150px;
+        top: 100px;
         font-size: 200%;    
     }
     
     #contact-text p {
         line-height: 60px;
         right: 40px;
-        top: 280px;
-        font-size: 150%;
+        left: 40px;
+        top: 240px;
+        font-size: 130%;
     }
 
     #contact-image {
-        /*Add larger image. Maybe change position*/
+        Add larger image. Maybe change position
         background: url("../images/five-girls.jpg") no-repeat top;
         background-size: cover;
     }
-}
+}*/
