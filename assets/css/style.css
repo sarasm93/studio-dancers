@@ -7,12 +7,25 @@
     box-sizing: border-box;
 }
 
-/* Grid */
+body {
+    color: white;
+    font-family: roboto condensed, arial, sans-serif;
+    margin: 0 7% 0 7%;
+    background-color: #000B0F;
+}
 
-class*="col-" {
+/* Code for creation of grid used from https://www.w3schools.com/css/css_rwd_grid.asp */ 
+
+[class*="col-"] {
     float: left;
     border: 1px solid grey;
-  }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
   
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
