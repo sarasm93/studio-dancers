@@ -18,7 +18,7 @@ body {
 
 [class*="col-"] {
     float: left;
-    border: 1px solid #000B0F;
+    border: 1px solid grey;
 }
 
 .row::after {
@@ -181,8 +181,11 @@ footer {
     color: #000B0F;
     background-color: #25d3d6;
     text-align: center;
-    line-height: 100px;
     height: 100px;
+}
+
+.footer-items {
+    line-height: 100px;
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -194,7 +197,7 @@ footer {
         width: 100%;
     }
 
-    #spaceing-nav {
+    #spacing-nav {
         width: 0;
     }
 
@@ -260,10 +263,19 @@ footer {
         min-height: 250px;
     }
 
-    footer {
-        line-height: 60px;
-        height: 60px;
+    .spacing-footer {
+        width: 0;
     }
+
+    footer {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .footer-items {
+        line-height: 18px;
+        float: none;
+    }  
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -275,12 +287,8 @@ footer {
         width: 100%;
     }
 
-    #spaceing-nav {
+    #spacing-nav {
         width: 0;
-    }
-
-    .nav-div {
-        width: 33.33%;
     }
 
     #logo h1 {
@@ -349,11 +357,19 @@ footer {
         background-position: top;
     }
 
-    footer {
-        line-height: 60px;
-        height: 60px;
+    .spacing-footer {
+        width: 0;
     }
 
+    footer {
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .footer-items {
+        line-height: 18px;
+        float: none;
+    }
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
