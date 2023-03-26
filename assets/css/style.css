@@ -201,10 +201,11 @@ footer {
     #logo h1 {
         font-size: x-large;
         text-align: center;
+        line-height: 60px;
     }
 
     .nav-items {
-        line-height: 40px;
+        line-height: 30px;
         margin-top: 0;
         text-align: center;
         float: none;
@@ -254,6 +255,11 @@ footer {
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
     }
+
+    footer {
+        line-height: 60px;
+        height: 60px;
+    }
 }
 
 /* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
@@ -270,12 +276,13 @@ footer {
     }
 
     #logo h1 {
+        line-height: 60px;
         font-size: xx-large;
         text-align: center;
     }
 
     .nav-items {
-        line-height: 40px;
+        line-height: 30px;
         margin-top: 0;
         text-align: center;
         float: none;
@@ -328,6 +335,11 @@ footer {
 
     #contact-image {
         background-position: top;
+    }
+
+    footer {
+        line-height: 60px;
+        height: 60px;
     }
 
 }
