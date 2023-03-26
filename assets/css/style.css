@@ -75,13 +75,12 @@ body {
     width: 100%;
 }
 
-
 /* Logo and navigation bar */
 
-#logo {
+#logo h1 {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
-    font-size: x-large;
+    font-size: xxx-large;
     line-height: 100px;
 }
 
@@ -90,8 +89,11 @@ body {
     text-transform: uppercase;
     color: white;
     float: right;
-    line-height: 85px;
-    margin-top: 15px;
+    line-height: 90px;
+}
+
+.nav-items p {
+    margin-top: 10px;
 }
 
 /* Sections */
@@ -153,6 +155,23 @@ h2 {
         width: 100%;
     }
 
+    #spaceing-nav {
+        width: 0;
+    }
+
+    #logo h1 {
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .nav-items {
+        line-height: 40px;
+        margin-top: 0;
+        text-align: center;
+        float: none;
+        font-size: small;
+    }
+
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
     }
@@ -167,6 +186,53 @@ h2 {
     [class*="col-"] {
         width: 100%;
     }
+
+    #spaceing-nav {
+        width: 0;
+    }
+
+    #logo h1 {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .nav-items {
+        line-height: 40px;
+        margin-top: 0;
+        text-align: center;
+        float: none;
+        font-size: medium;
+    }
+
+    #intro-image, #about-image, #contact-image {
+        min-height: 250px;
+    }
+
+    #contact-image {
+        background-position: top;
+    }
+
+}
+
+/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* For tablet devices, from 769px to 1024px */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    #logo h1 {
+        font-size: xx-large;
+    }
+
+    .nav-items {
+        text-align: right;
+        float: none;
+        font-size: medium;
+    }
+
+    .nav-items p {
+        margin-top: 7px;
+    }
+
 
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
