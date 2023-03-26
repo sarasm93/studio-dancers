@@ -80,7 +80,7 @@ body {
 #logo h1 {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
-    font-size: xxx-large;
+    font-size: xx-large;
     line-height: 100px;
 }
 
@@ -90,6 +90,7 @@ body {
     color: white;
     float: right;
     line-height: 90px;
+    font-size: medium;
 }
 
 .nav-items p {
@@ -132,6 +133,20 @@ h2 {
 
 /* About us-section */
 
+#about-text {
+    padding: 20px;
+}
+
+#about-text h2 {
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+#about-text p {
+    font-size: large;
+    margin-top: 20px;
+}
+
 #about-image {
     background: url("../images/stage-group-large.jpg") no-repeat center;
     background-size: cover;
@@ -139,6 +154,22 @@ h2 {
 }
 
 /* Contact section */
+
+#contact-text {
+    padding: 20px;
+    text-align: center;
+}
+
+#contact-text h2 {
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+#contact-text p {
+    font-size: large;
+    margin-top: 110px;
+    line-height: 40px;
+}
 
 #contact-image {
     background: url("../images/five-girls-large.jpg") no-repeat center;
@@ -170,6 +201,46 @@ h2 {
         text-align: center;
         float: none;
         font-size: small;
+    }
+
+    .nav-items p {
+        margin-top: 0;
+    }
+
+    #intro-text, #about-text, #contact-text {
+        height: 250px;
+    }
+
+    #intro-text h2 {
+        font-size: x-large;
+        margin-top: 70px;
+    }
+
+    #about-text h2 {
+        font-size: medium;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #about-text p {
+        font-size: small;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #contact-text {
+        padding: 10px;
+    }
+    
+    #contact-text h2 {
+        font-size: medium;
+        margin-top: 30px;
+    }
+    
+    #contact-text p {
+        font-size: x-small;
+        margin-top: 70px;
+        line-height: 25px;
     }
 
     #intro-image, #about-image, #contact-image {
@@ -204,6 +275,46 @@ h2 {
         font-size: medium;
     }
 
+    .nav-items p {
+        margin-top: 0;
+    }
+
+    #intro-text, #about-text, #contact-text {
+        height: 250px;
+    }
+    
+    #intro-text h2 {
+        font-size: xx-large;
+        margin-top: 70px;
+    }
+    
+    #about-text h2 {
+        font-size: large;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    #about-text p {
+        font-size: small;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    #contact-text {
+        padding: 10px;
+    }
+    
+    #contact-text h2 {
+        font-size: large;
+        margin-top: 30px;
+    }
+    
+    #contact-text p {
+        font-size: small;
+        margin-top: 70px;
+        line-height: 25px;
+    }
+
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
     }
@@ -233,6 +344,39 @@ h2 {
         margin-top: 7px;
     }
 
+    #intro-text, #about-text, #contact-text {
+        height: 250px;
+    }
+
+    #intro-text h2 {
+        font-size: xx-large;
+        margin-top: 60px;
+    }
+    
+    #about-text h2 {
+        font-size: large;
+        margin-top: 10px;
+    }
+    
+    #about-text p {
+        font-size: medium;
+        margin-top: 15px;
+    }
+
+    #contact-text {
+        padding: 10px;
+    }
+    
+    #contact-text h2 {
+        font-size: large;
+        margin-top: 30px;
+    }
+    
+    #contact-text p {
+        font-size: small;
+        margin-top: 60px;
+        line-height: 25px;
+    }
 
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
