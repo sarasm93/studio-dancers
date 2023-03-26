@@ -14,7 +14,7 @@ body {
     background-color: #000B0F;
 }
 
-/* Code for creation of grid used from https://www.w3schools.com/css/css_rwd_grid.asp */ 
+/* Code for creation of grid. Created by W3C and borrowed from their website, https://www.w3schools.com/css/css_rwd_grid.asp */ 
 
 [class*="col-"] {
     float: left;
@@ -39,3 +39,34 @@ body {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+
+  /* Logo and navigation bar */
+
+  #menu {
+    line-height: 100px;
+}
+
+/* Intro section */
+
+#intro-image {
+    background: url("../images/happy-group-large.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+    
+}
+
+/* About us-section */
+
+#about-image {
+    background: url("../images/stage-group-large.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/* Contact section */
+
+#contact-image {
+    background: url("../images/five-girls-large.jpg") no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
