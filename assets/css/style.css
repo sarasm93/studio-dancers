@@ -10,7 +10,7 @@
 body {
     color: white;
     font-family: roboto condensed, arial, sans-serif;
-    margin: 0 7% 0 7%;
+    margin: 0 6% 0 6%;
     background-color: #000B0F;
 }
 
@@ -78,24 +78,23 @@ body {
 
 /* Logo and navigation bar */
 
-#menu {
-    line-height: 100px;
-}
-
 #logo {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
     font-size: x-large;
+    line-height: 100px;
 }
 
-#menu li {
-    list-style-type: none;
-    margin-left: 40px;
-    float: right;
+.nav-items {
+    text-decoration: none;
     text-transform: uppercase;
-    margin-top: 20px;
     color: white;
+    float: right;
+    line-height: 85px;
+    margin-top: 15px;
 }
+
+
 
 /* Intro section */
 
@@ -129,7 +128,6 @@ body {
 
     [class*="col-"] {
         width: 100%;
-        border: 1px solid grey;
     }
 
     #intro-image, #about-image, #contact-image {
@@ -145,7 +143,6 @@ body {
 
     [class*="col-"] {
         width: 100%;
-        border: 1px solid grey;
     }
 
     #intro-image, #about-image, #contact-image {
