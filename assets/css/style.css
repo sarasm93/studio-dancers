@@ -18,7 +18,7 @@ body {
 
 [class*="col-"] {
     float: left;
-    border: 1px solid grey;
+    border: 1px solid #000B0F;
 }
 
 .row::after {
@@ -177,6 +177,14 @@ h2 {
     min-height: 400px;
 }
 
+footer {
+    color: #000B0F;
+    background-color: #25d3d6;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+}
+
 /* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
 /* For mobile devices, from 320px to 480px */
 
@@ -246,7 +254,6 @@ h2 {
     #intro-image, #about-image, #contact-image {
         min-height: 250px;
     }
-
 }
 
 /* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
