@@ -14,7 +14,7 @@ body {
     background-color: #000B0F;
 }
 
-/* Code for creation of grid. Created by W3C and borrowed from their website, https://www.w3schools.com/css/css_rwd_grid.asp */ 
+/* Code for creation of grid, created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
 
 [class*="col-"] {
     float: left;
@@ -26,24 +26,65 @@ body {
     clear: both;
     display: table;
 }
-  
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
 
-  /* Logo and navigation bar */
+.col-1 {
+    width: 8.33%;
+}
 
-  #menu {
-    line-height: 100px;
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+/* Logo and navigation bar */
+
+#menu li {
+    list-style-type: none;
+    margin-left: 40px;
+    float: right;
+    text-transform: uppercase;
+    font-size: xx-small;
+    color: white;
 }
 
 /* Intro section */
@@ -52,7 +93,7 @@ body {
     background: url("../images/happy-group-large.jpg") no-repeat center;
     background-size: cover;
     height: 400px;
-    
+
 }
 
 /* About us-section */
@@ -69,4 +110,40 @@ body {
     background: url("../images/five-girls-large.jpg") no-repeat center;
     background-size: cover;
     height: 400px;
+}
+
+/* Code for creation of grid, created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* For mobile devices, from 320px to 480px */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    [class*="col-"] {
+        width: 100%;
+        border: 1px solid grey;
+    }
+
+    #intro-image, #about-image, #contact-image {
+        height: 250px;
+    }
+
+}
+
+/* Code for creation of grid, created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* For tablet devices, from 481px to 768px */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    [class*="col-"] {
+        width: 100%;
+        border: 1px solid grey;
+    }
+
+    #intro-image, #about-image, #contact-image {
+        height: 250px;
+    }
+
+    #contact-image {
+        background-position: top;
+    }
+
 }
