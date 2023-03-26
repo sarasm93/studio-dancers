@@ -178,14 +178,15 @@ h2 {
 }
 
 footer {
-    color: #000B0F;
     background-color: #25d3d6;
     text-align: center;
     height: 100px;
 }
 
-.footer-items {
+.footer-items i {
     line-height: 100px;
+    color: #000B0F;
+    font-size: large; 
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -268,13 +269,13 @@ footer {
     }
 
     footer {
-        height: 60px;
-        line-height: 60px;
+        height: 70px;
     }
 
-    .footer-items {
+    .footer-items i {
         line-height: 18px;
         float: none;
+        font-size: small;
     }  
 }
 
@@ -362,13 +363,13 @@ footer {
     }
 
     footer {
-        height: 60px;
-        line-height: 60px;
+        height: 70px;
     }
 
-    .footer-items {
+    .footer-items i {
         line-height: 18px;
         float: none;
+        font-size: small;
     }
 }
 
