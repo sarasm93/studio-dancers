@@ -78,12 +78,22 @@ body {
 
 /* Logo and navigation bar */
 
+#menu {
+    line-height: 100px;
+}
+
+#logo {
+    font-family: montserrat subrayada, arial, sans-serif;
+    text-transform: capitalize;
+    font-size: x-large;
+}
+
 #menu li {
     list-style-type: none;
     margin-left: 40px;
     float: right;
     text-transform: uppercase;
-    font-size: xx-small;
+    margin-top: 20px;
     color: white;
 }
 
@@ -92,7 +102,7 @@ body {
 #intro-image {
     background: url("../images/happy-group-large.jpg") no-repeat center;
     background-size: cover;
-    height: 400px;
+    min-height: 400px;
 
 }
 
@@ -101,7 +111,7 @@ body {
 #about-image {
     background: url("../images/stage-group-large.jpg") no-repeat center;
     background-size: cover;
-    height: 400px;
+    min-height: 400px;
 }
 
 /* Contact section */
@@ -109,10 +119,10 @@ body {
 #contact-image {
     background: url("../images/five-girls-large.jpg") no-repeat center;
     background-size: cover;
-    height: 400px;
+    min-height: 400px;
 }
 
-/* Code for creation of grid, created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
 /* For mobile devices, from 320px to 480px */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -123,12 +133,12 @@ body {
     }
 
     #intro-image, #about-image, #contact-image {
-        height: 250px;
+        min-height: 250px;
     }
 
 }
 
-/* Code for creation of grid, created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
 /* For tablet devices, from 481px to 768px */
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -139,7 +149,7 @@ body {
     }
 
     #intro-image, #about-image, #contact-image {
-        height: 250px;
+        min-height: 250px;
     }
 
     #contact-image {
