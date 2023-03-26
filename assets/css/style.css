@@ -94,15 +94,38 @@ body {
     margin-top: 15px;
 }
 
+/* Sections */
 
+#intro-text, #about-text, #contact-text {
+    height: 400px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+} 
 
 /* Intro section */
+
+#intro-text h2 {
+    text-align: center;
+    font-size: xxx-large;
+    letter-spacing: 6px;
+    margin: 100px 10px 0 10px;
+}
+
+#joy {
+    color: #FF0565;
+}
+
+#dancing {
+    color: #25d3d6;
+}
 
 #intro-image {
     background: url("../images/happy-group-large.jpg") no-repeat center;
     background-size: cover;
     min-height: 400px;
-
 }
 
 /* About us-section */
