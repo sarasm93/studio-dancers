@@ -185,7 +185,7 @@ footer {
     height: 100px;
 }
 
-/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile devices, from 320px to 480px */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -206,18 +206,22 @@ footer {
 
     .nav-items {
         line-height: 30px;
-        margin-top: 0;
+        margin: 0;
         text-align: center;
         float: none;
         font-size: small;
     }
 
     .nav-items p {
-        margin-top: 0;
+        margin: 0;
     }
 
     #intro-text, #about-text, #contact-text {
         height: 250px;
+    }
+
+    #intro-image {
+        margin-top: 20px;
     }
 
     #intro-text h2 {
@@ -262,7 +266,7 @@ footer {
     }
 }
 
-/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For tablet devices, from 481px to 768px */
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -273,6 +277,10 @@ footer {
 
     #spaceing-nav {
         width: 0;
+    }
+
+    .nav-div {
+        width: 33.33%;
     }
 
     #logo h1 {
@@ -295,6 +303,10 @@ footer {
 
     #intro-text, #about-text, #contact-text {
         height: 250px;
+    }
+
+    #intro-image {
+        margin-top: 20px;
     }
     
     #intro-text h2 {
@@ -344,7 +356,7 @@ footer {
 
 }
 
-/* Code [class*="col-"] for creation of grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_grid.asp */
+/* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For tablet devices, from 769px to 1024px */
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
