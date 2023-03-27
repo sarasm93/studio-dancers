@@ -218,8 +218,16 @@ footer {
     height: 400px;
 }
 
-.class-info {
-    margin: 10px 0 30px 20px;
+
+
+.schedule {
+    margin: 0 0 20px 0;
+}
+
+.schedule td {
+    text-align: left;
+    font-size: small;
+    line-height: 20px;
 }
 
 #jazz-image {
@@ -343,6 +351,8 @@ footer {
 
     /* Classes */
 
+    
+
     hr {
         border: 0.1px solid gray;
         margin: 20px 10px; 
@@ -350,13 +360,14 @@ footer {
 
     #class-schedule {
         font-size: medium;
+        margin-top: 30px;
     }
 
     #studio-address {
         font-size: small;
     }
 
-    .class-info {
+    .schedule td {
         font-size: small;
         line-height: 20px;
     }
@@ -474,15 +485,19 @@ footer {
 
     #class-schedule {
         font-size: large;
+        margin-top: 30px;
     }
 
     #studio-address {
-        font-size: medium;
+        font-size: small;
     }
 
-    .class-info {
-        font-size: medium;
-        line-height: 20px;
+    .schedule.col-11 {
+        width: 60%;
+    }
+
+    .sign-up-link {
+        clear: both;
     }
 
     #jazz-image, #hiphop-image, #ballet-image, #contemporary-image {
@@ -559,4 +574,25 @@ footer {
     #contact-image {
         background-position: top;
     }
+
+    /* Classes */
+
+    .classes {
+        height: 540px;
+    }
+    
+    #class-schedule {
+        font-size: medium;
+    }
+
+    #studio-address {
+        font-size: small;
+    }
+
+    .schedule td {
+        font-size: small;
+        line-height: 20px;
+    }
 }
+
+
