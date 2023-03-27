@@ -18,7 +18,7 @@ body {
 
 [class*="col-"] {
     float: left;
-    border: 1px solid grey;
+    border: 0.2px solid grey;
 }
 
 .row::after {
@@ -185,17 +185,18 @@ footer {
     height: 100px;
 }
 
-.footer-items i {
+.footer-items {
     line-height: 95px;
     color: #000B0F;
     font-size: large;
 }
 
 .footer-border {
-    border: 1px solid #25d3d6;
+    border: 0.2px solid #25d3d6;
 }
 
 /* Classes */
+
 
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -281,7 +282,7 @@ footer {
         height: 70px;
     }
 
-    .footer-items i {
+    .footer-items {
         line-height: 18px;
         float: none;
         font-size: small;
@@ -375,7 +376,7 @@ footer {
         height: 70px;
     }
 
-    .footer-items i {
+    .footer-items {
         line-height: 18px;
         float: none;
         font-size: small;
@@ -442,6 +443,4 @@ footer {
     #contact-image {
         background-position: top;
     }
-
-
 }
