@@ -218,8 +218,6 @@ footer {
     height: 400px;
 }
 
-
-
 .schedule {
     margin: 0 0 20px 0;
 }
@@ -492,6 +490,7 @@ footer {
         font-size: small;
     }
 
+    /* Used this site https://css-tricks.com/multiple-class-id-selectors/ to build this selector */
     .schedule.col-11 {
         width: 60%;
     }
