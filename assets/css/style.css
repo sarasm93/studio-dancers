@@ -228,6 +228,11 @@ footer {
     line-height: 20px;
 }
 
+.sign-up-link {
+    clear: both;
+    text-decoration: none;
+}
+
 #jazz-image {
     background: url("../images/jazz-large.jpg") no-repeat top;
     background-size: cover;
@@ -369,6 +374,11 @@ footer {
         font-size: small;
         line-height: 20px;
     }
+
+    .sign-up-link {
+        clear: both;
+        text-decoration: none;
+    }
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -497,6 +507,7 @@ footer {
 
     .sign-up-link {
         clear: both;
+        text-decoration: none;
     }
 
     #jazz-image, #hiphop-image, #ballet-image, #contemporary-image {
@@ -591,6 +602,11 @@ footer {
     .schedule td {
         font-size: small;
         line-height: 20px;
+    }
+
+    .sign-up-link {
+        clear: both;
+        text-decoration: none;
     }
 }
 
