@@ -257,6 +257,35 @@ footer {
     min-height: 200px;
 }
 
+/* Sign up-page */
+
+figcaption {
+    margin-bottom: 10px;
+}
+
+fieldset {
+    border: 1px solid grey;
+    box-sizing: border-box;
+}
+
+legend {
+    margin: 20px 20px;
+}
+
+label {
+    margin: 10px 0 0 20px;
+}
+
+input {
+    margin: 0 0 10px 20px;
+    width: 80%;
+}
+
+#button {
+    margin: 30px 0 40px 50px;
+    width: 20%;
+}
+
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile devices, from 320px to 480px */
 
