@@ -43,13 +43,32 @@
         </div>
     </header>
     <div>
+        Sign up for a class by filling in the form below. 
         <form action="#" method="post">
-            <label for=first-name>First name</label>
-            <span><input type="text" id="first-name"></span>
-            <label for=last-name>Last name</label>
-            <input type="text" id="last-name">
-
-            
+            <label for=first-name>First name:</label>
+            <span><input type="text" id="first-name" name="first-name" required></span>
+            <label for=last-name>Last name:</label>
+            <input type="text" id="last-name" name="first-name" required>
+            <br>
+            <label for=tel>Phone number:</label>
+            <input type="tel" id="phone-nr" name="phone-nr" required>
+            <br>
+            <label for=email>Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="checkbox" id="jazz" name="class-choice" value="jazz">
+            <label for=checkbox>Jazz</label>
+            <br>
+            <input type="checkbox" id="hiphop" name="class-choice" value="hiphop">
+            <label for=checkbox>Hiphop</label>
+            <br>
+            <input type="checkbox" id="ballet" name="class-choice" value="ballet">
+            <label for=checkbox>Ballet</label>
+            <br>
+            <input type="checkbox" id="contemporary" name="class-choice" value="contemporary">
+            <label for=checkbox>Contemporary</label>
+            <br>
+            <input id="button" type="submit" value="Send!">
         </form>
     </div>
 </body>
