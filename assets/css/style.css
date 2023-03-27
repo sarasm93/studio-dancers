@@ -77,15 +77,19 @@ body {
 
 /* Logo and navigation bar */
 
+header a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: montserrat subrayada, arial, sans-serif;
     text-transform: capitalize;
     font-size: xx-large;
     line-height: 100px;
+    color: white;
 }
 
 .nav-items {
-    text-decoration: none;
     text-transform: uppercase;
     color: white;
     float: right;
@@ -145,6 +149,10 @@ h2 {
 #about-text p {
     font-size: large;
     margin-top: 20px;
+}
+
+#about-text a {
+    color: white;
 }
 
 #about-image {
@@ -417,7 +425,7 @@ footer {
     }
     
     #about-text p {
-        font-size: medium;
+        font-size: small;
         margin-top: 15px;
     }
 
