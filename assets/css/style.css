@@ -205,7 +205,39 @@ footer {
 
 /* Classes */
 
+#studio-address {
+    font-size: large;
+    text-align: center;
+    margin-top: 40px;
+}
 
+.classes {
+    margin-top: 40px;
+}
+
+#jazz {
+    background: url("../images/jazz-large.jpg") no-repeat top;
+    background-size: cover;
+    min-height: 150px;
+}
+
+#hiphop {
+    background: url("../images/hiphop-large.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 150px;
+}
+
+#ballet {
+    background: url("../images/ballet-large.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 150px;
+}
+
+#contemporary {
+    background: url("../images/contemporary-large.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 150px;
+}
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For mobile devices, from 320px to 480px */
