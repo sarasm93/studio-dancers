@@ -18,7 +18,7 @@ body {
 
 [class*="col-"] {
     float: left;
-    border: 0.2px solid grey;
+    border: 0.2px solid #000B0F;
 }
 
 .row::after {
@@ -121,7 +121,7 @@ h2 {
     margin: 100px 10px 0 10px;
 }
 
-#joy {
+.joy {
     color: #FF0565;
 }
 
@@ -203,40 +203,47 @@ footer {
     border: 0.2px solid #25d3d6;
 }
 
-/* Classes */
+/* Classes-page */
+
+#class-schedule {
+    margin-top: 20px;
+}
 
 #studio-address {
     font-size: large;
-    text-align: center;
-    margin-top: 40px;
+    margin: 20px 0 10px 0;
 }
 
 .classes {
-    margin-top: 40px;
+    height: 400px;
 }
 
-#jazz {
+.class-info {
+    margin: 10px 0 30px 20px;
+}
+
+#jazz-image {
     background: url("../images/jazz-large.jpg") no-repeat top;
     background-size: cover;
-    min-height: 150px;
+    min-height: 200px;
 }
 
-#hiphop {
+#hiphop-image {
     background: url("../images/hiphop-large.jpg") no-repeat center;
     background-size: cover;
-    min-height: 150px;
+    min-height: 200px;
 }
 
-#ballet {
+#ballet-image {
     background: url("../images/ballet-large.jpg") no-repeat center;
     background-size: cover;
-    min-height: 150px;
+    min-height: 200px;
 }
 
-#contemporary {
+#contemporary-image {
     background: url("../images/contemporary-large.jpg") no-repeat center;
     background-size: cover;
-    min-height: 150px;
+    min-height: 200px;
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -259,7 +266,7 @@ footer {
     }
 
     .nav-items {
-        line-height: 30px;
+        line-height: 20px;
         margin: 0;
         text-align: center;
         float: none;
@@ -327,6 +334,13 @@ footer {
         float: none;
         font-size: small;
     }  
+
+    /* Classes */
+
+    hr {
+        border: 0.1px solid gray;
+        margin: 20px 10px; 
+    }
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -420,6 +434,13 @@ footer {
         line-height: 18px;
         float: none;
         font-size: small;
+    }
+
+    /* Classes */
+
+    hr {
+        border: 0.1px solid gray;
+        margin: 20px 10px; 
     }
 }
 
