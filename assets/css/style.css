@@ -211,7 +211,7 @@ footer {
 
 #studio-address {
     font-size: large;
-    margin: 20px 0 10px 0;
+    margin: 20px 0;
 }
 
 .classes {
@@ -255,6 +255,8 @@ footer {
         width: 100%;
     }
 
+    /* Header */
+
     #spacing-nav {
         width: 0;
     }
@@ -276,6 +278,8 @@ footer {
     .nav-items p {
         margin: 0;
     }
+
+    /* Sections */ 
 
     #intro-text, #about-text, #contact-text {
         height: 250px;
@@ -321,6 +325,8 @@ footer {
         min-height: 250px;
     }
 
+    /* Footer */ 
+
     .spacing-footer {
         width: 0;
     }
@@ -341,6 +347,19 @@ footer {
         border: 0.1px solid gray;
         margin: 20px 10px; 
     }
+
+    #class-schedule {
+        font-size: medium;
+    }
+
+    #studio-address {
+        font-size: small;
+    }
+
+    .class-info {
+        font-size: small;
+        line-height: 20px;
+    }
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -351,6 +370,8 @@ footer {
     [class*="col-"] {
         width: 100%;
     }
+
+    /* Header */
 
     #spacing-nav {
         width: 0;
@@ -363,7 +384,7 @@ footer {
     }
 
     .nav-items {
-        line-height: 30px;
+        line-height: 20px;
         margin-top: 0;
         text-align: center;
         float: none;
@@ -373,6 +394,8 @@ footer {
     .nav-items p {
         margin-top: 0;
     }
+
+    /* Sections */
 
     #intro-text, #about-text, #contact-text {
         height: 250px;
@@ -422,6 +445,8 @@ footer {
         background-position: top;
     }
 
+    /* Footer */
+
     .spacing-footer {
         width: 0;
     }
@@ -442,12 +467,40 @@ footer {
         border: 0.1px solid gray;
         margin: 20px 10px; 
     }
+
+    .classes {
+        height: 470px;
+    }
+
+    #class-schedule {
+        font-size: large;
+    }
+
+    #studio-address {
+        font-size: medium;
+    }
+
+    .class-info {
+        font-size: medium;
+        line-height: 20px;
+    }
+
+    #jazz-image, #hiphop-image, #ballet-image, #contemporary-image {
+        min-height: 270px;
+    }
+
+    #hiphop-image {
+        background-position: bottom;
+    }
 }
 
 /* Code [class*="col-"] for creation of responsive grid is created by W3C and taken from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
 /* For tablet devices, from 769px to 1024px */
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+
+    /* Header */
 
     h1 {
         font-size: xx-large;
@@ -462,6 +515,8 @@ footer {
     .nav-items p {
         margin-top: 7px;
     }
+
+    /* Sections */
 
     #intro-text, #about-text, #contact-text {
         height: 250px;
