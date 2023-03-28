@@ -497,7 +497,7 @@ placeholder {
     #intro-text,
     #about-text,
     #contact-text {
-        min-height: 250px;
+        height: 250px;
     }
 
     #intro-image {
