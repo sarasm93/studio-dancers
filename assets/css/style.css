@@ -89,12 +89,20 @@ h1 {
     color: white;
 }
 
+h1:hover {
+    color: #25d3d6;
+}
+
 .nav-items {
     text-transform: uppercase;
     color: white;
     float: right;
     line-height: 90px;
     font-size: medium;
+}
+
+.nav-items:hover {
+    color: #FF57C7;
 }
 
 .nav-items p {
@@ -122,7 +130,7 @@ h2 {
 }
 
 .joy {
-    color: #FF0565;
+    color: #FF57C7;
 }
 
 #dancing {
@@ -153,6 +161,10 @@ h2 {
 
 #about-text a {
     color: white;
+}
+
+#about-text a:hover {
+    color: #FF57C7;
 }
 
 #about-image {
@@ -217,6 +229,7 @@ footer {
 
 .classes {
     height: 400px;
+    min-height: 70vh;
 }
 
 .schedule {
@@ -232,6 +245,10 @@ footer {
 .sign-up-link {
     clear: both;
     text-decoration: none;
+}
+
+.sign-up-link:hover {
+    color: white;
 }
 
 #jazz-image {
@@ -292,14 +309,18 @@ input {
     margin: 30px 0 40px 50px;
     width: 80px;
     height: 50px;
-    background-color:#FF0565;
+    background-color: #FF57C7;
     color: #000b0f;
     font-size: 15px;
     font-family: roboto condensed, arial, sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
-    border: 1px solid #FF0565;
+    border: 1px solid #FF57C7;
     border-radius: 30%;
+}
+
+#button:hover {
+    background-color: white;
 }
 
 placeholder {
@@ -420,11 +441,6 @@ placeholder {
     .schedule td {
         font-size: small;
         line-height: 20px;
-    }
-
-    .sign-up-link {
-        clear: both;
-        text-decoration: none;
     }
 }
 
@@ -552,11 +568,6 @@ placeholder {
         width: 60%;
     }
 
-    .sign-up-link {
-        clear: both;
-        text-decoration: none;
-    }
-
     #jazz-image, #hiphop-image, #ballet-image, #contemporary-image {
         min-height: 270px;
     }
@@ -570,7 +581,6 @@ placeholder {
 /* For tablet devices, from 769px to 1024px */
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-
 
     /* Header */
 
@@ -633,10 +643,6 @@ placeholder {
     }
 
     /* Classes */
-
-    .classes {
-        height: 540px;
-    }
     
     #classes-heading {
         font-size: medium;
@@ -649,11 +655,6 @@ placeholder {
     .schedule td {
         font-size: small;
         line-height: 20px;
-    }
-
-    .sign-up-link {
-        clear: both;
-        text-decoration: none;
     }
 }
 
