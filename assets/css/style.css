@@ -111,14 +111,16 @@ h1:hover {
 
 /* Sections */
 
-#intro-text, #about-text, #contact-text {
+#intro-text,
+#about-text,
+#contact-text {
     height: 400px;
 }
 
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-} 
+}
 
 /* Intro section */
 
@@ -204,6 +206,10 @@ footer {
     text-align: center;
     height: 100px;
     clear: both;
+}
+
+footer div {
+    background-color: #25d3d6;
 }
 
 .footer-items {
@@ -302,7 +308,7 @@ label {
 input {
     margin: 0 0 10px 20px;
     width: 80%;
-    background-color:rgb(37, 211, 214, 0.1);
+    background-color: rgb(37, 211, 214, 0.1);
 }
 
 #button {
@@ -360,9 +366,11 @@ placeholder {
         margin: 0;
     }
 
-    /* Sections */ 
+    /* Sections */
 
-    #intro-text, #about-text, #contact-text {
+    #intro-text,
+    #about-text,
+    #contact-text {
         height: 250px;
     }
 
@@ -380,7 +388,7 @@ placeholder {
         margin-top: 10px;
         text-align: center;
     }
-    
+
     #about-text p {
         font-size: small;
         margin-top: 15px;
@@ -390,23 +398,25 @@ placeholder {
     #contact-text {
         padding: 10px;
     }
-    
+
     #contact-text h2 {
         font-size: medium;
         margin-top: 30px;
     }
-    
+
     #contact-text p {
         font-size: x-small;
         margin-top: 70px;
         line-height: 25px;
     }
 
-    #intro-image, #about-image, #contact-image {
+    #intro-image,
+    #about-image,
+    #contact-image {
         min-height: 250px;
     }
 
-    /* Footer */ 
+    /* Footer */
 
     .spacing-footer {
         width: 0;
@@ -420,13 +430,13 @@ placeholder {
         line-height: 18px;
         float: none;
         font-size: small;
-    }  
+    }
 
     /* Classes */
 
     hr {
         border: 0.1px solid gray;
-        margin: 20px 10px; 
+        margin: 20px 10px;
     }
 
     #classes-heading {
@@ -479,25 +489,27 @@ placeholder {
 
     /* Sections */
 
-    #intro-text, #about-text, #contact-text {
+    #intro-text,
+    #about-text,
+    #contact-text {
         height: 250px;
     }
 
     #intro-image {
         margin-top: 20px;
     }
-    
+
     #intro-text h2 {
         font-size: xx-large;
         margin-top: 70px;
     }
-    
+
     #about-text h2 {
         font-size: large;
         margin-top: 10px;
         text-align: center;
     }
-    
+
     #about-text p {
         font-size: small;
         margin-top: 15px;
@@ -507,19 +519,21 @@ placeholder {
     #contact-text {
         padding: 10px;
     }
-    
+
     #contact-text h2 {
         font-size: large;
         margin-top: 30px;
     }
-    
+
     #contact-text p {
         font-size: small;
         margin-top: 70px;
         line-height: 25px;
     }
 
-    #intro-image, #about-image, #contact-image {
+    #intro-image,
+    #about-image,
+    #contact-image {
         min-height: 250px;
     }
 
@@ -547,11 +561,11 @@ placeholder {
 
     hr {
         border: 0.1px solid gray;
-        margin: 20px 10px; 
+        margin: 20px 10px;
     }
 
     .classes {
-        height: 470px;
+        height: 400px;
     }
 
     #classes-heading {
@@ -568,8 +582,11 @@ placeholder {
         width: 60%;
     }
 
-    #jazz-image, #hiphop-image, #ballet-image, #contemporary-image {
-        min-height: 270px;
+    #jazz-image,
+    #hiphop-image,
+    #ballet-image,
+    #contemporary-image {
+        min-height: 200px;
     }
 
     #hiphop-image {
@@ -600,7 +617,9 @@ placeholder {
 
     /* Sections */
 
-    #intro-text, #about-text, #contact-text {
+    #intro-text,
+    #about-text,
+    #contact-text {
         height: 250px;
     }
 
@@ -608,12 +627,12 @@ placeholder {
         font-size: xx-large;
         margin-top: 60px;
     }
-    
+
     #about-text h2 {
         font-size: large;
         margin-top: 10px;
     }
-    
+
     #about-text p {
         font-size: small;
         margin-top: 15px;
@@ -622,19 +641,21 @@ placeholder {
     #contact-text {
         padding: 10px;
     }
-    
+
     #contact-text h2 {
         font-size: large;
         margin-top: 30px;
     }
-    
+
     #contact-text p {
         font-size: small;
         margin-top: 60px;
         line-height: 25px;
     }
 
-    #intro-image, #about-image, #contact-image {
+    #intro-image,
+    #about-image,
+    #contact-image {
         min-height: 250px;
     }
 
@@ -643,7 +664,7 @@ placeholder {
     }
 
     /* Classes */
-    
+
     #classes-heading {
         font-size: medium;
     }
@@ -657,5 +678,3 @@ placeholder {
         line-height: 20px;
     }
 }
-
-
