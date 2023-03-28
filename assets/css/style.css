@@ -191,6 +191,7 @@ footer {
     background-color: #25d3d6;
     text-align: center;
     height: 100px;
+    clear: both;
 }
 
 .footer-items {
@@ -259,8 +260,12 @@ footer {
 
 /* Sign up-page */
 
+form {
+    height: 650px;
+}
+
 figcaption {
-    margin-bottom: 10px;
+    margin: 30px 0 0 0;
 }
 
 fieldset {
@@ -397,8 +402,6 @@ placeholder {
     }  
 
     /* Classes */
-
-    
 
     hr {
         border: 0.1px solid gray;
