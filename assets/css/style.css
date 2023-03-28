@@ -162,11 +162,12 @@ h2 {
 }
 
 #about-text a {
-    color: white;
+    color: #FF57C7;
+    text-decoration: none;
 }
 
 #about-text a:hover {
-    color: #FF57C7;
+    color: white;
 }
 
 #about-image {
