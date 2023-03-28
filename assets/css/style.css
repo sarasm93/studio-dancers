@@ -438,6 +438,11 @@ placeholder {
         margin: 20px 10px;
     }
 
+    .classes {
+        min-height: 0;
+        height: 400px;
+    }
+
     #classes-heading {
         font-size: medium;
         margin-top: 30px;
@@ -491,7 +496,7 @@ placeholder {
     #intro-text,
     #about-text,
     #contact-text {
-        height: 250px;
+        min-height: 250px;
     }
 
     #intro-image {
@@ -563,6 +568,11 @@ placeholder {
         margin: 20px 10px;
     }
 
+    .classes {
+        min-height: 0;
+        height: 450px;
+    }
+    
     #classes-heading {
         font-size: large;
         margin-top: 30px;
@@ -581,7 +591,7 @@ placeholder {
     #hiphop-image,
     #ballet-image,
     #contemporary-image {
-        min-height: 200px;
+        min-height: 250px;
     }
 
     #hiphop-image {
