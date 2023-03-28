@@ -234,8 +234,7 @@ footer div {
 }
 
 .classes {
-    height: 400px;
-    min-height: 70vh;
+    min-height: 65vh;
 }
 
 .schedule {
@@ -562,10 +561,6 @@ placeholder {
     hr {
         border: 0.1px solid gray;
         margin: 20px 10px;
-    }
-
-    .classes {
-        height: 400px;
     }
 
     #classes-heading {
