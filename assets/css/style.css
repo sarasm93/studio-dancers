@@ -9,7 +9,7 @@
 
 body {
     color: white;
-    font-family: roboto condensed, arial, sans-serif;
+    font-family: "roboto condensed", arial, sans-serif;
     margin: 0 6% 0 6%;
     background-color: #000B0F;
 }
@@ -82,7 +82,7 @@ header a {
 }
 
 h1 {
-    font-family: montserrat subrayada, arial, sans-serif;
+    font-family: "montserrat subrayada", arial, sans-serif;
     text-transform: capitalize;
     font-size: xx-large;
     line-height: 100px;
@@ -318,7 +318,7 @@ input {
     background-color: #FF57C7;
     color: #000b0f;
     font-size: 15px;
-    font-family: roboto condensed, arial, sans-serif;
+    font-family: "roboto condensed", arial, sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
     border: 1px solid #FF57C7;
