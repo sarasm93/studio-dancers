@@ -50,12 +50,17 @@ This section aims to give the user a war welcome with a
 #### **Classes page**
 
 
-![Introduction section](documentation)
+![Introduction section](documentation/readme-classes.png)
 
 #### **Sign up page**
 
 
+![Introduction section](documentation/readme-sign-up.png)
+
 #### **Thank you page**
+
+
+![Introduction section](documentation/readme-thank-you.png)
 
 
 ## **Deployment**
