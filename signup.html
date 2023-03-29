@@ -46,8 +46,8 @@
     </header>
     <section>
         <div class="row">
-            <form action="thankyou.html" method="get" class="col-5">
-                <p>Please fill in this form to sign up for a class.</p>
+            <form action="thankyou.html" method="get" class="col-5" aria-labelledby="Sign-up">
+                <p id="sign-up">Please fill in this form to sign up for a class.</p>
                 <br>
                 <fieldset>
                     <legend>Sign up form</legend>
@@ -64,9 +64,9 @@
                     <br>
                     <input type="text" id="last-name" name="last-name" required>
                     <br>
-                    <label for=tel>Phone number:</label>
+                    <label for=phone-number>Phone number:</label>
                     <br>
-                    <input type="number" id="tel" name="phone-nr" required>
+                    <input type="number" id="phone-number" name="phone-nr" required>
                     <br>
                     <label for=email>Email:</label>
                     <br>
@@ -76,7 +76,7 @@
                     <br>
                     <input type="text" id="address" name="address" required>
                     <br>
-                    <input id="button" type="submit" value="Send!">
+                    <input id="button" type="submit" value="Send!" aria-label="Button for sending completed form">
                 </fieldset>
             </form>
         </div>
