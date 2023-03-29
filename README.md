@@ -1,9 +1,8 @@
 # **Studio dancers**
 
-Studio Dancers wants to spred the joy of dancing! By offering dance classes in several different styles with high class instructors for you adults, the Studio Dancers site hopes to get more young people to discover the amazing world of dance! It also hopes to attract those who already love dancing and give them XXXXX to keep dancing!  
+Studio dancers wants to spred the joy of dancing! By offering dance classes in several different styles with high class instructors for young adults, the Studio Dancers site hopes to get more young people to discover the amazing world of dance! It also hopes to attract those who already love to dance and make them want to keep dancing! 
 
-The site targets young adults that are 
-
+Studio dancers 
 
 Overview of page. Sälj in. Beskriv vad du vill försöka åstadkomma, målgrupp, hur sidan kommer att vara användbar för målgruppen. 
 
