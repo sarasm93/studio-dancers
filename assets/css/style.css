@@ -244,7 +244,7 @@ footer div {
 }
 
 .schedule {
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 .schedule th {
@@ -272,6 +272,7 @@ footer div {
     background: url("../images/jazz-medium.jpg") no-repeat top;
     background-size: cover;
     min-height: 200px;
+    margin-bottom: 10px;
 }
 
 #hiphop-image {
@@ -279,6 +280,7 @@ footer div {
     background: url("../images/hiphop-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
+    margin-bottom: 10px;
 }
 
 #ballet-image {
@@ -286,6 +288,7 @@ footer div {
     background: url("../images/ballet-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
+    margin-bottom: 10px;
 }
 
 #contemporary-image {
@@ -293,6 +296,7 @@ footer div {
     background: url("../images/contemporary-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
+    margin-bottom: 10px;
 }
 
 /* Sign up-page */
