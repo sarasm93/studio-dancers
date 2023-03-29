@@ -10,8 +10,6 @@ You can find the site [here.]( ADD LINK!!!!! )
 
 ### **Excisting features**
 
------> describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 #### **Features relevant to all pages**
 
 ##### **Header**
@@ -34,17 +32,30 @@ The links are opened in a new tab, so that the user can stay on the Studio dance
 
 ##### **Introduction section**
 
+-----> describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+This section aims to give the user a war welcome with a 
+
+![Introduction section](documentation/readme-intro-section.png)
 
 ##### **About us section**
 
+![Introduction section](documentation/readme-about-us.png)
+
 ##### **Contact section**
+
+
+![Introduction section](documentation/readme-contact.png)
 
 #### **Classes page**
 
 
+![Introduction section](documentation)
+
 #### **Sign up page**
 
+
+#### **Thank you page**
 
 
 ## **Deployment**
