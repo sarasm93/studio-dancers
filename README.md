@@ -70,6 +70,23 @@ The purpose and value of the thank you-page is simply to ensure the user that th
 ## **Testing**
 ---
 
+### **Validator testing**
+
+I have validated my code with the below websites. 
+
+- HTML: [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
+- CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+
+
+My deployed site returns no errors. 
+
+### **Additional testing**
+
+Responsinator 
+
+The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) was used to test that the contrast between the colors used was sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
+
 
 
 No bugs have been idenitified in this version. 
@@ -91,6 +108,9 @@ The site was deployed to Github Pages with the following three steps:
 Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. 
 
 MMMMEEEERRR!!!!!!!!!!!!!!!!!!!! Inspiration till iconer i footer fick jag från Love Running project and 
+
+
+[Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons.
 
 ### **Images**
 
