@@ -243,6 +243,11 @@ footer div {
     margin: 0 0 20px 0;
 }
 
+.schedule th {
+    text-align: left;
+    font-size: small;
+}
+
 .schedule td {
     text-align: left;
     font-size: small;
