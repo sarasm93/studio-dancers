@@ -141,6 +141,7 @@ h2 {
 }
 
 #intro-image {
+    background-color: #000B0F;
     background: url("../images/happy-group-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 400px;
@@ -172,6 +173,7 @@ h2 {
 }
 
 #about-image {
+    background-color: #000B0F;
     background: url("../images/stage-group-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 400px;
@@ -196,6 +198,7 @@ h2 {
 }
 
 #contact-image {
+    background-color: #000B0F;
     background: url("../images/five-girls-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 400px;
@@ -265,24 +268,28 @@ footer div {
 }
 
 #jazz-image {
+    background-color: #000B0F;
     background: url("../images/jazz-medium.jpg") no-repeat top;
     background-size: cover;
     min-height: 200px;
 }
 
 #hiphop-image {
+    background-color: #000B0F;
     background: url("../images/hiphop-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
 }
 
 #ballet-image {
+    background-color: #000B0F;
     background: url("../images/ballet-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
 }
 
 #contemporary-image {
+    background-color: #000B0F;
     background: url("../images/contemporary-medium.jpg") no-repeat center;
     background-size: cover;
     min-height: 200px;
