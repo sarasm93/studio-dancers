@@ -12,26 +12,38 @@ You can find the site [here.]( ADD LINK!!!!! )
 
 -----> describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-#### Features relevant to all pages**
+#### **Features relevant to all pages**
 
 ##### **Header**
 
-Contains the logo and navigation bar and is located at the top of every page. The header provides links to all pages of the site to navigate between them. The logo is a link to the home page 
+Contains the logo and navigation bar and is located at the top of every page where the user would expect them to be. The logo and navigation bar together give the user the name of the site and where different information can be found. The header provides links to all pages of the site to easily navigate between them. The logo is a link to the home page and the navigation bar links to the other pages; Classes and Sign up.  
+
+The links turn pink or blue when hovering over them, indicating to the user that the object is clickable. 
+
+![Logo and navigation bar](documentation/readme-logo-nav.png)
 
 ##### **Footer**
 
-#### **The About us page**
+The footer is located at the bottom of every page. It contains icons with links to external social media pages where more information that is interesting to the user can be found. It has therefore been given a bright blue color to make it stand out from background color of the rest of the site, to be easily found and to not be forgotten.
 
-##### **Intro section**
+The links are opened in a new tab, so that the user can stay on the Studio dancers site. 
+
+![Footer](documentation/readme-footer.png)
+
+#### **Home page**
+
+##### **Introduction section**
+
+
 
 ##### **About us section**
 
 ##### **Contact section**
 
-#### **The Classes page**
+#### **Classes page**
 
 
-#### **The Sign up page**
+#### **Sign up page**
 
 
 
