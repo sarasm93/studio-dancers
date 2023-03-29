@@ -70,6 +70,23 @@ The purpose and value of the thank you-page is simply to ensure the user that th
 ## **Testing**
 ---
 
+I have used [Responsinator](http://www.responsinator.com/) to test responsiveness and make the site look good on different screen sizes.  
+
+The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) was used to test that the contrast between the colors used was sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
+
+
+### **Bugs**
+
+#### **Resolved bugs**
+
+????????
+
+
+No bugs have been idenitified in the deployed version.
+
+
+
+
 ### **Validator testing**
 
 I have validated my code with the below websites. 
@@ -81,24 +98,20 @@ I have validated my code with the below websites.
 
 My deployed site returns no errors. 
 
-### **Additional testing**
-
-Responsinator 
-
-The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) was used to test that the contrast between the colors used was sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
-
-
-
-No bugs have been idenitified in this version. 
-
 ## **Deployment**
 ---
 You can find the link to the live site [here.]( ADD LINK!!!!! )
 
 The site was deployed to Github Pages with the following three steps:
-1. 
-2. 
-3. 
+
+1. Log on to GitHub
+2. Find the correct repository 
+3. Find the settings tab in the repository navigation bar
+4. Find the pages option in the bar on the right hand side
+5. In the source drop-down menu select the master branch ??????????????
+6. Click the save button
+7. The site is published and the URL for it is now provided in the bar directly under the GitHub Pages
+
 
 ## **Credits**
 ---
@@ -132,7 +145,7 @@ Pexels:
 ## **Acknowledgments**
 ---
 
-I would like to thank Antonio Rodriguez for guiding me when building this site to make it responsive with grid view.
+I want to thank my mentor Antonio Rodriguez for guiding me when building this site to make it responsive with grid view.
 
 
 
