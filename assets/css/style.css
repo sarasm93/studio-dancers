@@ -247,6 +247,10 @@ footer div {
     margin: 0 0 15px 0;
 }
 
+h3 {
+    font-size: medium;
+}
+
 .schedule th {
     text-align: left;
     font-size: small;
