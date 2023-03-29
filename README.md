@@ -4,7 +4,9 @@ Studio dancers wants to spred the joy of dancing! By offering dance classes in s
 
 ![Studio dancers website showed in different screen sizes provided by https://ui.dev/amiresponsive](documentation/readme-intro.png)
 
-## Features
+## **Features**
+
+
 
 
 
