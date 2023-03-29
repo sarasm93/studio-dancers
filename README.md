@@ -118,12 +118,7 @@ No bugs have been idenitified in the deployed version.
 
 ## **Deployment**
 ---
-You can find the link to the live site [here.]( ADD LINK!!!!! )
-
-
-
-
-
+You can find the link to the live site [here.]( ADD LINK!!!!!!!!!!!!! )
 
 The site was deployed to Github Pages with the following three steps:
 
@@ -146,16 +141,27 @@ The site was deployed to Github Pages with the following three steps:
 
 Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. Comments have been added in the code to show where the borrowed code is.
 
-In order to increase the accessibility score for the page I had to add aria-labels to the images at the classes page. In order for the syntax to be correct (by adding a role-attribute) I used this [W3SC website](https://www.w3.org/TR/html-aria/#docconformance-naming) to guide me.  
+In order to increase the accessibility score for the page I had to add aria-labels to the images at the classes page. In order for the syntax to be correct (by adding a role-attribute) I used this [W3SC website](https://www.w3.org/TR/html-aria/#docconformance-naming) to guide me. 
+
+Information on how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from W3Schools website. 
+
+[The css-ticks site](https://css-tricks.com/multiple-class-id-selectors/) was used to understand and create a selector that targets a class under another class.  
+
+I have used this [dance studio web theme](https://themeforest.net/item/dance-studio-wordpress-theme/20555996) and this [Vibez web theme](https://themeforest.net/item/vibez-a-dynamic-multiconcept-theme-for-dance-studios-and-instructors/19654985) at [Themeforest](https://themeforest.net/), along with the website for [Rydbergs dance academy](https://rydbergsdance.com/) as inspiration for the design and layout of the page. 
+
+https://www.w3schools.com/cssref/pr_background-image.php
+
+LOVE RUNNING!
 
 MMMMEEEERRR!!!!!!!!!!!!!!!!!!!! Inspiration till iconer i footer fick jag från Love Running project and 
 
+[Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons. 
 
+[Fontpair](https://www.fontpair.co/all) was used to try to find fonts that look good together. 
 
+[Adobe color](https://color.adobe.com/sv/create/color-wheel) was used to try to find colors that gives a good feeling to the site.  
 
-
-
-[Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons.
+The readme.md files for the [Love running project](https://github.com/Code-Institute-Solutions/readme-template), [the Coding club project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) and [Angie´s Beauty website](https://github.com/AmyOShea/Angies-Beauty-MS1) has been used for inspiration for the content of the readme.md file for this site.
 
 ### **Images**
 
