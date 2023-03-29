@@ -70,22 +70,31 @@ The purpose and value of the thank you-page is simply to ensure the user that th
 ## **Testing**
 ---
 
-I have used [Responsinator](http://www.responsinator.com/) to test responsiveness and make the site look good on different screen sizes.  
+I have used [Responsinator](http://www.responsinator.com/) to test responsiveness and make the site look good on different screen sizes.
+
+The site has been tested so that it works on different browsers; Google Chrome, Microsoft Edge, Firefox and Samsung Internet.
 
 The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) was used to test that the contrast between the colors used was sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
+
+
+
+
 
 
 ### **Bugs**
 
 #### **Resolved bugs**
 
-????????
+When testing the site in different browsers I saw a dark thin line across the footer and a blue thin line right below the footer. I located the lines to be borders of elements within the footer and solved it be giving blue background color and increasing the line-height to divs in the footer. 
+
+When testing responsiveness, large gaps appears for the smaller screen sizes between the information about the different classes. The problem was due to heights for the divs containing the information having vh-values. To solve it I gave only the biggest screen sizes a vh-value and the smaller once a px-value. 
+
+Aria-labels
+
+
 
 
 No bugs have been idenitified in the deployed version.
-
-
-
 
 ### **Validator testing**
 
@@ -94,13 +103,24 @@ I have validated my code with the below websites.
 - HTML: [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
 - CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-
+!!!!!!!!!!!!!!!!!!!!!!!
 
 My deployed site returns no errors. 
+
+I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page. 
+
+
+
+
 
 ## **Deployment**
 ---
 You can find the link to the live site [here.]( ADD LINK!!!!! )
+
+
+
+
+
 
 The site was deployed to Github Pages with the following three steps:
 
@@ -109,18 +129,25 @@ The site was deployed to Github Pages with the following three steps:
 3. Find the settings tab in the repository navigation bar
 4. Find the pages option in the bar on the right hand side
 5. In the source drop-down menu select the master branch ??????????????
+
+
+
+
+
 6. Click the save button
 7. The site is published and the URL for it is now provided in the bar directly under the GitHub Pages
 
-
 ## **Credits**
 ---
-
 ### **Content and design**
 
 Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. 
 
 MMMMEEEERRR!!!!!!!!!!!!!!!!!!!! Inspiration till iconer i footer fick jag från Love Running project and 
+
+
+
+
 
 
 [Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons.
