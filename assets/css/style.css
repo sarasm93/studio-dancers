@@ -14,7 +14,7 @@ body {
     background-color: #000B0F;
 }
 
-/* Code below, for creation of grid with rows and column width, is created by W3C and taken 
+/* Code on row 20 to 77, for creation of grid with rows and column width, is created by W3C and taken 
 from their website https://www.w3schools.com/css/css_rwd_grid.asp */
 
 [class*="col-"] {
@@ -366,7 +366,7 @@ placeholder {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-    /* Code [class*="col-"] below, for creation of responsive columns, is created by W3C and taken 
+    /* Code on row 371 to 373, for creation of responsive columns, is created by W3C and taken 
     from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
     [class*="col-"] {
         width: 100%;
@@ -493,7 +493,7 @@ placeholder {
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
 
-    /* Code [class*="col-"] below, for creation of responsive columns, is created by W3C and taken 
+    /* Code on row 498 to 500, for creation of responsive columns, is created by W3C and taken 
     from their website, https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
     [class*="col-"] {
         width: 100%;
@@ -614,7 +614,7 @@ placeholder {
         font-size: small;
     }
 
-    /* Used this site https://css-tricks.com/multiple-class-id-selectors/ understand how to build this selector */
+    /* Used this site https://css-tricks.com/multiple-class-id-selectors/ understand how to build selector on row 618 to 620 */
     .schedule.col-11 {
         width: 60%;
     }
