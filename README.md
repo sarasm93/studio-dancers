@@ -27,9 +27,9 @@ The links are opened in a new tab, so that the user can stay on the Studio dance
 
 ![Footer](documentation/readme-footer.png)
 
-### **Home page**
+### **The Home page**
 
-#### **Introduction section**
+#### **The Introduction section**
 
 This section aims to give the user a warm welcome and is useful to the users as it gives them a first glance of what dancing at Studio dancers could look like. It aims to make them interested and to make them want to continue exploring the page. This is done with a happy image and inspirational and selling words. Words that I want the user to focus on are highlighted with pink and blue color. 
 
@@ -37,49 +37,69 @@ The image has been placed to the left to make it appear directly under the logo 
 
 ![Introduction section](documentation/readme-intro-section.png)
 
-#### **About us section**
+#### **The About us section**
 
 The About us-section provides the user a little bit more detailed information about what Studio dancers offers that is useful for the to know what they can expect if they sign up for a class. Directly below the information a link is provided to the schedule for the dance classes, so that the user can reach it fast and easy without having to go to the navigation bar again. The link is highlighted in pink and changes to white when hovering over it. 
 
-![Introduction section](documentation/readme-about-us.png)
+![About us section](documentation/readme-about-us.png)
 
-#### **Contact section**
+#### **The Contact section**
 
 The contact section lets the user know that questions can be asked if needed and provides the user with a phone number, email address and street address which the user is encuraged to use if there are any questions. To make it as useful as possible for the user, the contact details is provided on the home page so that the user early on in its journey at the site knows that questions can be asked if needed.   
 
-![Introduction section](documentation/readme-contact.png)
+![Contact section](documentation/readme-contact.png)
 
-### **Classes page**
+### **The Classes page**
 
 The classes page is useful to the user as it provides important information about all the dance classes in order for the user to know what to sign up for. It contains information about where the classes are held; what dance styles Studio dancers offers classes in; when and how many weeks the classes are held; names of the instructors and prices for the classes. Above the text information about each dance style there is an image showing dancers dancing that specific style. Below the text information for each style there is a link to the sign up page. The link is placed there, and also highlighted in pink, to make it very easy for the user to find the form. The links turns white when hovering over them.  
 
-![Introduction section](documentation/readme-classes.png)
+![Classes page](documentation/readme-classes.png)
 
-### **Sign up page**
+### **The Sign up page**
 
 This page is useful to the user as it makes it possible to sign up for classes. The page provides a form with a submit button in the end, that collects the details needed to sign up; choice of class and contact details. The submit button is highlighted in pink to try to remind the user to not forget to send the form. The buttons becomes white when hovering over it.     
 
-![Introduction section](documentation/readme-sign-up.png)
+![Sign up page](documentation/readme-sign-up.png)
 
-### **Thank you page**
+### **The Thank you page**
 
 The purpose and value of the thank you-page is simply to ensure the user that the form has been sent and inform them that Studio dancers will contact them. It only contains a few short sentences, to not keep the user at this page longer than necessary. 
 
-![Introduction section](documentation/readme-thank-you.png)
+![Thank you page](documentation/readme-thank-you.png)
+
+### **Future features**
+
+- A news or calender section at the home page showing what events the dancers will attend soon. 
+- Add a gallery to show how what a great dancer the user can be and how fun the user can have with Studio dancers. 
 
 ## **Testing**
 ---
 
-I have used [Responsinator](http://www.responsinator.com/) to test responsiveness and make the site look good on different screen sizes.
+The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) has been used to test that the contrast between the colors used is sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
 
-The site has been tested so that it works on different browsers; Google Chrome, Microsoft Edge, Firefox and Samsung Internet.
+The site has been tested so that it works on different browsers. It has been tested on Google Chrome, Microsoft Edge, Firefox and Samsung Internet. 
 
-The [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/) was used to test that the contrast between the colors used was sufficient. At first, the pink color didn´t pass one of the tests for normal sized text. I changed the color to a slightly brighter one, then all colors passed all tests.   
+I have confirmed that the links on the site are not broken and works as intended and that all text is readable. 
+
+I have also checked that the form on the sign up page is validated.
+
+I have used [Responsinator](http://www.responsinator.com/) and the DevTools toolbar to test responsiveness and make the site look good on different screen sizes. 
 
 
 
+### **Validator testing**
 
+I have validated my code with the below websites. 
+- HTML: [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
+- CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+!!!!!!!!!!!!!!!!!!!!!!!
+
+The deployed site returns no errors. 
+
+I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page. 
+
+![Lighthouse testing score](INFOOOOOOGGGAA RÄTTTT LÄNK när du deployat)
 
 ### **Bugs**
 
@@ -89,29 +109,12 @@ When testing the site in different browsers I saw a dark thin line across the fo
 
 When testing responsiveness, large gaps appears for the smaller screen sizes between the information about the different classes. The problem was due to heights for the divs containing the information having vh-values. To solve it I gave only the biggest screen sizes a vh-value and the smaller once a px-value. 
 
-Aria-labels
+After adding aria-labels to the images at the classes page, testing the website again showed me that the labels was incorrectly added. This was solved by adding a role-attribute to the divs where the aria-label was added. 
 
 
 
 
 No bugs have been idenitified in the deployed version.
-
-### **Validator testing**
-
-I have validated my code with the below websites. 
-
-- HTML: [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
-- CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
-
-!!!!!!!!!!!!!!!!!!!!!!!
-
-My deployed site returns no errors. 
-
-I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page. 
-
-
-
-
 
 ## **Deployment**
 ---
@@ -141,7 +144,9 @@ The site was deployed to Github Pages with the following three steps:
 ---
 ### **Content and design**
 
-Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. 
+Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. Comments have been added in the code to show where the borrowed code is.
+
+In order to increase the accessibility score for the page I had to add aria-labels to the images at the classes page. In order for the syntax to be correct (by adding a role-attribute) I used this [W3SC website](https://www.w3.org/TR/html-aria/#docconformance-naming) to guide me.  
 
 MMMMEEEERRR!!!!!!!!!!!!!!!!!!!! Inspiration till iconer i footer fick jag från Love Running project and 
 
