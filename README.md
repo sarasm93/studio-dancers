@@ -105,9 +105,11 @@ I also checked the accessibility of the site with Lighthouse in DevTools. The re
 
 #### **Resolved bugs**
 
+In order to get the navigation bar to stay in the far right corner of the site header, and be displayed in the right order without having to change the order of the navigation items in the .html files, I used the grid view concept. I used divs and column widths instead of a list in order to align the items on larger screens. The empty paces between the navigation bar and the logo was created with empty divs with column widths. For smaller screen sizes the empty divs was given a value 0 for the width, so that the navibation bar would be placed in the middle of the screen. The same principle was applied in order to align and center the icons in the footer.
+
 When testing the site in different browsers I saw a dark thin line across the footer and a blue thin line right below the footer. I located the lines to be borders of elements within the footer and solved it be giving blue background color and increasing the line-height to divs in the footer. 
 
-When testing responsiveness, large gaps appears for the smaller screen sizes between the information about the different classes. The problem was due to heights for the divs containing the information having vh-values. To solve it I gave only the biggest screen sizes a vh-value and the smaller once a px-value. 
+When testing responsiveness, large gaps appeared for the smaller screen sizes between the information about the different classes. The problem was due to heights for the divs containing the information having vh-values. To solve it I gave only the biggest screen sizes a vh-value and the smaller once a px-value. 
 
 After adding aria-labels to the images at the classes page, testing the website again showed me that the labels was incorrectly added. This was solved by adding a role-attribute to the divs where the aria-label was added. 
 
@@ -139,11 +141,15 @@ The site was deployed to Github Pages with the following three steps:
 ---
 ### **Content and design**
 
-Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid and make the Studio dancers site responsive. Comments have been added in the code to show where the borrowed code is.
+Code from [W3Schools website section about grid view](https://www.w3schools.com/css/css_rwd_grid.asp) has been used in the style.css file to create a grid with columns and make the Studio dancers site responsive. Comments have been added in the code to show where the borrowed code is.
 
 In order to increase the accessibility score for the page I had to add aria-labels to the images at the classes page. In order for the syntax to be correct (by adding a role-attribute) I used this [W3SC website](https://www.w3.org/TR/html-aria/#docconformance-naming) to guide me. 
 
-Information on how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from W3Schools website. I also used [Aditus website](https://www.aditus.io/aria/aria-label/) to understand how to add a aria-labelledby attribute to a form. 
+I used from [W3C website](https://www.w3schools.com/cssref/pr_background-image.php) and [the Medium website](https://medium.com/@kimcodeashian/simple-css-solutions-how-to-resize-images-with-different-dimensions-without-cropping-eb744e93246d) to guide me regarding how to display and size images displayed with css background selectors instead of an html image element was used. 
+
+In order to understand how media queries work and how to add both a min- and a max-width to them, I have looked at [W3Schools website](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) and [Stack overflow](https://stackoverflow.com/questions/63810344/how-to-use-multiple-media-queries-in-a-single-css-file). 
+
+Information to guide me regarding how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from the W3Schools website and from [Mozilla´s website](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation). I also used [Aditus website](https://www.aditus.io/aria/aria-label/) and [W3Cs website](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/form.html) to understand how to add a aria-label and aria-labelledby attribute to a form. 
 
 [The css-ticks site](https://css-tricks.com/multiple-class-id-selectors/) was used to understand and create a selector that targets a class under another class.  
 
@@ -153,10 +159,7 @@ I have used this [dance studio web theme](https://themeforest.net/item/dance-stu
 
 [Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons. 
 
-The [Love Running lessons](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/?child=first) was used to get the structure of the footer with icons and anchor elements with the right attributes in place on my website. When this was in place I used divs and grid widths instead of a list in order to align the icons and to make the footer responsive. 
-
-
-
+The [Love Running lessons](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/?child=first) was used to get the structure of the footer with icons and anchor elements with the right attributes in place on my website. When this was in place I used divs and column widths instead of a list in order to align the icons and to make the footer responsive. 
 
 [Fontpair](https://www.fontpair.co/all) was used to try to find fonts that look good together. 
 
