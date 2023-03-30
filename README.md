@@ -93,13 +93,15 @@ I have validated my code with the below websites.
 - HTML: [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) 
 - CSS: [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-!!!!!!!!!!!!!!!!!!!!!
- 
-!!!!!!!!!!!!!!!!!!!!!!!
+When validating classes.html there was errors regarding missing elements for the table. It also gave a warning regarding that sections should have headings. The code was missing some `<tr>` and `</tr>` elements which were added to solve the errors, and `<h2>` and `<h3>` elements were added to the sections.
 
-The deployed site returns no errors. 
+When validating signup.html there was an error about a label in the form, saying "the value of the for-attribute of the label element must be the ID of a non-hidden form control". I had used a for-attribute that didn´t match the ID on the input element. I changed the for-attribute to match the ID and the error was solved. The validation also gave a warning about the usage of a caption element. The caption element was removed as I realised it was wrongly used on a form element. This solved the error.
 
-I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page. 
+When validating style.css there were four warnings saying that font family names that contain spaces must be entered in quotation marks. I noticed quotations marks were missing for the montserrat subrayada and roboto condensed fonts and added this to solve the warning.
+
+The deployed site returns no errors when validated. 
+
+I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page and the logo and navigation bar. 
 
 ![Lighthouse testing score](INFOOOOOOGGGAA RÄTTTT LÄNK när du deployat)!!!!!!!!!!!!!!!!!!!!!!!!!!
 

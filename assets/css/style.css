@@ -614,7 +614,7 @@ placeholder {
         font-size: small;
     }
 
-    /* Used this site https://css-tricks.com/multiple-class-id-selectors/ understand how to build selector on row 618 to 620 */
+    /* Used this site https://css-tricks.com/multiple-class-id-selectors/ to understand how to build selector on row 618 to 620 */
     .schedule.col-11 {
         width: 60%;
     }
