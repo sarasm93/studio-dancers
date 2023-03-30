@@ -143,25 +143,26 @@ Code from [W3Schools website section about grid view](https://www.w3schools.com/
 
 In order to increase the accessibility score for the page I had to add aria-labels to the images at the classes page. In order for the syntax to be correct (by adding a role-attribute) I used this [W3SC website](https://www.w3.org/TR/html-aria/#docconformance-naming) to guide me. 
 
-Information on how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from W3Schools website. 
+Information on how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from W3Schools website. I also used [Aditus website](https://www.aditus.io/aria/aria-label/) to understand how to add a aria-labelledby attribute to a form. 
 
 [The css-ticks site](https://css-tricks.com/multiple-class-id-selectors/) was used to understand and create a selector that targets a class under another class.  
 
+In order to get started with the coding of the site, I used the '!+tab' command to create a boilerplate html structure. I also used [Love Running lessons](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/f2db5fd401004fccb43b01a6066a5333/) to get ideas on what to start with. 
+
 I have used this [dance studio web theme](https://themeforest.net/item/dance-studio-wordpress-theme/20555996) and this [Vibez web theme](https://themeforest.net/item/vibez-a-dynamic-multiconcept-theme-for-dance-studios-and-instructors/19654985) at [Themeforest](https://themeforest.net/), along with the website for [Rydbergs dance academy](https://rydbergsdance.com/) as inspiration for the design and layout of the page. 
 
-https://www.w3schools.com/cssref/pr_background-image.php
-
-LOVE RUNNING!
-
-MMMMEEEERRR!!!!!!!!!!!!!!!!!!!! Inspiration till iconer i footer fick jag från Love Running project and 
-
 [Google Fonts](https://fonts.google.com/) was used to import 'Montserrat subrayada' and 'Roboto condensed' fonts and [Font Awesome](https://fontawesome.com/) was used to import icons. 
+
+The [Love Running lessons](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/?child=first) was used to get the structure of the footer with icons and anchor elements with the right attributes in place on my website. When this was in place I used divs and grid widths instead of a list in order to align the icons and to make the footer responsive. 
+
+
+
 
 [Fontpair](https://www.fontpair.co/all) was used to try to find fonts that look good together. 
 
 [Adobe color](https://color.adobe.com/sv/create/color-wheel) was used to try to find colors that gives a good feeling to the site.  
 
-The readme.md files for the [Love running project](https://github.com/Code-Institute-Solutions/readme-template), [the Coding club project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) and [Angie´s Beauty website](https://github.com/AmyOShea/Angies-Beauty-MS1) has been used for inspiration for the content of the readme.md file for this site.
+The readme.md files for the [Love running website](https://github.com/Code-Institute-Solutions/readme-template), the [Coding club website](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) and [Angie´s Beauty website](https://github.com/AmyOShea/Angies-Beauty-MS1) has been used for inspiration for the content of the readme.md file for this site.
 
 ### **Images**
 
