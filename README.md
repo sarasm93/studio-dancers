@@ -85,7 +85,7 @@ I have also checked that the form on the sign up page is validated.
 
 I have used [Responsinator](http://www.responsinator.com/) and the DevTools toolbar to test responsiveness and make the site look good on different screen sizes. 
 
-
+Git was used for version control. Gitpod was used to write the code and the site was continuously preview using DevTools. 
 
 ### **Validator testing**
 
@@ -101,20 +101,25 @@ I also checked the accessibility of the site with Lighthouse in DevTools. The re
 
 ![Lighthouse testing score](INFOOOOOOGGGAA RÄTTTT LÄNK när du deployat)
 
-### **Bugs**
-
-#### **Resolved bugs**
+### **Resolved problems**
 
 In order to get the navigation bar to stay in the far right corner of the site header, and be displayed in the right order without having to change the order of the navigation items in the .html files, I used the grid view concept. I used divs and column widths instead of a list in order to align the items on larger screens. The empty paces between the navigation bar and the logo was created with empty divs with column widths. For smaller screen sizes the empty divs was given a value 0 for the width, so that the navibation bar would be placed in the middle of the screen. The same principle was applied in order to align and center the icons in the footer.
+
+I had trouble finding the best way to vertically align text at the home page, so that it would be centered relative to an image. I tried using line-heigt but that would give the text very large spacing at small screen-sizes when the text needs several rows. Instead I solved it with using top margins on the text elements.  
+
+I wanted to vertically align the logo and the navigation bar so that the bottom of the text was on the same horizontal line. To solve this margin was added to the top of the paragraph elements in the navigation bar. 
+
+Trouble with adding several media queries to the same css-fil. Lösning: put media ONLY screen and (.....). Se credit.
+
+Touble with images not displaying when using grid view. Lösning: since its a table I cannot add a height to the section in order for the image to show and to size the image. The heigt needs to be added to the image-div directly. Touble with aligning text in textions with image and giving text-column same height as image. Lösning: satte id på text-divs och gav dem bestämd höjd.
+
+### **Resolved Bugs**
 
 When testing the site in different browsers I saw a dark thin line across the footer and a blue thin line right below the footer. I located the lines to be borders of elements within the footer and solved it be giving blue background color and increasing the line-height to divs in the footer. 
 
 When testing responsiveness, large gaps appeared for the smaller screen sizes between the information about the different classes. The problem was due to heights for the divs containing the information having vh-values. To solve it I gave only the biggest screen sizes a vh-value and the smaller once a px-value. 
 
 After adding aria-labels to the images at the classes page, testing the website again showed me that the labels was incorrectly added. This was solved by adding a role-attribute to the divs where the aria-label was added. 
-
-
-
 
 No bugs have been idenitified in the deployed version.
 
@@ -148,6 +153,8 @@ In order to increase the accessibility score for the page I had to add aria-labe
 I used from [W3C website](https://www.w3schools.com/cssref/pr_background-image.php) and [the Medium website](https://medium.com/@kimcodeashian/simple-css-solutions-how-to-resize-images-with-different-dimensions-without-cropping-eb744e93246d) to guide me regarding how to display and size images displayed with css background selectors instead of an html image element was used. 
 
 In order to understand how media queries work and how to add both a min- and a max-width to them, I have looked at [W3Schools website](https://www.w3schools.com/css/css3_mediaqueries_ex.asp) and [Stack overflow](https://stackoverflow.com/questions/63810344/how-to-use-multiple-media-queries-in-a-single-css-file). 
+
+I used [W3Schools website](https://www.w3schools.com/css/css_align.asp) to better understand how to vertically align text, in my case relative to an image. The site gave me the tools the help move content up and down by adding margins.  
 
 Information to guide me regarding how to [build forms](https://www.w3schools.com/html/html_forms.asp) and what [different input types](https://www.w3schools.com/html/html_form_input_types.asp) that are available to create a valid sign up form was used from the W3Schools website and from [Mozilla´s website](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation). I also used [Aditus website](https://www.aditus.io/aria/aria-label/) and [W3Cs website](https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/form.html) to understand how to add a aria-label and aria-labelledby attribute to a form. 
 
