@@ -4,7 +4,7 @@ Studio dancers wants to spred the joy of dancing! By offering dance classes in s
 
 ![Studio dancers website showed in different screen sizes provided by https://ui.dev/amiresponsive](documentation/readme-intro.png)
 
-You can find the site [here.]( ADD LINK!!!!! )
+You can find the site [here.](https://sarasm93.github.io/studio-dancers/)
 
 ## **Features**
 ---
@@ -103,7 +103,7 @@ The deployed site returns no errors when validated.
 
 I also checked the accessibility of the site with Lighthouse in DevTools. The results for the final page is shown below. The first time I checked the accessibility, the score was lower than shown below. I increased the score by using compressed images that made the site load faster. I also added aria-labels to the images on the classes page and the logo and navigation bar. 
 
-![Lighthouse testing score](INFOOOOOOGGGAA RÄTTTT LÄNK när du deployat)!!!!!!!!!!!!!!!!!!!!!!!!!!
+![Lighthouse testing score](documentation/lighthouse-test.png)
 
 ### **Resolved problems**
 
@@ -129,7 +129,7 @@ No bugs have been idenitified in the deployed version.
 
 ## **Deployment**
 ---
-You can find the link to the live site [here.]( ADD LINK!!!!!!!!!!!!! )
+You can find the link to the live site [here.](https://sarasm93.github.io/studio-dancers/)
 
 The site was deployed to Github Pages with the following three steps:
 
@@ -137,14 +137,9 @@ The site was deployed to Github Pages with the following three steps:
 2. Find the correct repository 
 3. Find the settings tab in the repository navigation bar
 4. Find the pages option in the bar on the right hand side
-5. In the source drop-down menu select the master branch ??????????????
-
-
-
-
-
+5. In the branch drop-down menu select the main branch
 6. Click the save button
-7. The site is published and the URL for it is now provided in the bar directly under the GitHub Pages
+7. The site is published and the URL for it is now provided in the bar directly under the GitHub Pages. If the URL is not provided directly you might need to refresh the page in order for it to show.
 
 ## **Credits**
 ---
